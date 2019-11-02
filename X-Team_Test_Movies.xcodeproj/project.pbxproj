@@ -49,6 +49,7 @@
 		201597A5236D195200001282 /* X-Team_Test_MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "X-Team_Test_MoviesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		201597A9236D195200001282 /* X_Team_Test_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X_Team_Test_MoviesUITests.swift; sourceTree = "<group>"; };
 		201597AB236D195200001282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201597B7236D1EAD00001282 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		2015977B236D194D00001282 = {
 			isa = PBXGroup;
 			children = (
+				201597B7236D1EAD00001282 /* README.md */,
 				20159786236D194D00001282 /* X-Team_Test_Movies */,
 				2015979D236D195100001282 /* X-Team_Test_MoviesTests */,
 				201597A8236D195200001282 /* X-Team_Test_MoviesUITests */,
@@ -99,13 +101,14 @@
 		20159786236D194D00001282 /* X-Team_Test_Movies */ = {
 			isa = PBXGroup;
 			children = (
-				20159787236D194D00001282 /* AppDelegate.swift */,
-				20159789236D194D00001282 /* SceneDelegate.swift */,
-				2015978B236D194D00001282 /* ViewController.swift */,
-				2015978D236D194D00001282 /* Main.storyboard */,
-				20159790236D195100001282 /* Assets.xcassets */,
-				20159792236D195100001282 /* LaunchScreen.storyboard */,
-				20159795236D195100001282 /* Info.plist */,
+				201597B9236D1F8000001282 /* Extensions */,
+				20C36623236D2131001889C6 /* Network */,
+				20C36620236D20E3001889C6 /* Persistence */,
+				201597BA236D1F9000001282 /* Protocols */,
+				201597B8236D1F7300001282 /* Supporting Files */,
+				201597BB236D1F9B00001282 /* ViewControllers */,
+				201597BC236D1FA600001282 /* ViewModels */,
+				20C36622236D2102001889C6 /* Views */,
 			);
 			path = "X-Team_Test_Movies";
 			sourceTree = "<group>";
@@ -126,6 +129,77 @@
 				201597AB236D195200001282 /* Info.plist */,
 			);
 			path = "X-Team_Test_MoviesUITests";
+			sourceTree = "<group>";
+		};
+		201597B8236D1F7300001282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20C36621236D20F5001889C6 /* Delegates */,
+				20159790236D195100001282 /* Assets.xcassets */,
+				20159795236D195100001282 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		201597B9236D1F8000001282 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		201597BA236D1F9000001282 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		201597BB236D1F9B00001282 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2015978B236D194D00001282 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		201597BC236D1FA600001282 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		20C36620236D20E3001889C6 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		20C36621236D20F5001889C6 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				20159789236D194D00001282 /* SceneDelegate.swift */,
+				20159787236D194D00001282 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		20C36622236D2102001889C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20159792236D195100001282 /* LaunchScreen.storyboard */,
+				2015978D236D194D00001282 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20C36623236D2131001889C6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,7 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "X-Team_Test_Movies/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/X-Team_Test_Movies/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "X-Team_Test_Movies/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/X-Team_Test_Movies/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
