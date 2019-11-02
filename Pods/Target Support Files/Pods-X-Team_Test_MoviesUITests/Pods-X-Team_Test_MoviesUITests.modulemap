@@ -1,0 +1,6 @@
+framework module Pods_X_Team_Test_MoviesUITests {
+  umbrella header "Pods-X-Team_Test_MoviesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
