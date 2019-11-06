@@ -8,6 +8,7 @@ target 'X-Team_Test_Movies' do
   # Pods for X-Team_Test_Movies
   pod 'Alamofire'
   pod 'SDWebImage'
+  pod 'SwiftyJSON'
 
   target 'X-Team_Test_MoviesTests' do
     inherit! :search_paths
