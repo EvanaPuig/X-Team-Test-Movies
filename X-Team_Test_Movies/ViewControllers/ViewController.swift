@@ -9,10 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  private let categoriesListService = CategoriesListService()
 
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
+    
+    categoriesListService.getPopularMovies(pageNumber: 1, success: { result in
+      print("got it!")
+    }) {
+      print("error")
+    }
   }
 
 

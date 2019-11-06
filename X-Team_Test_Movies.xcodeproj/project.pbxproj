@@ -15,6 +15,10 @@
 		20159794236D195100001282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20159792236D195100001282 /* LaunchScreen.storyboard */; };
 		2015979F236D195100001282 /* X_Team_Test_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2015979E236D195100001282 /* X_Team_Test_MoviesTests.swift */; };
 		201597AA236D195200001282 /* X_Team_Test_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201597A9236D195200001282 /* X_Team_Test_MoviesUITests.swift */; };
+		208E39BE236F727B0043FECF /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E39BC236F727B0043FECF /* Reach.swift */; };
+		208E39BF236F727B0043FECF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E39BD236F727B0043FECF /* APIManager.swift */; };
+		208E39C2236F738A0043FECF /* CategoriesListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E39C1236F738A0043FECF /* CategoriesListService.swift */; };
+		208E39C4236F73F80043FECF /* MovieAppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E39C3236F73F80043FECF /* MovieAppConstants.swift */; };
 		20C36627236D23BD001889C6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 20C36626236D23BD001889C6 /* .gitignore */; };
 		6BD9D44CAD706F8ED433F6FC /* Pods_X_Team_Test_MoviesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B198CD75D172645F611A7EA /* Pods_X_Team_Test_MoviesUITests.framework */; };
 		AB1A01C95EF728B6DB3B35A9 /* Pods_X_Team_Test_MoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6855A240067CB57FEFD75EB /* Pods_X_Team_Test_MoviesTests.framework */; };
@@ -58,6 +62,10 @@
 		201597A9236D195200001282 /* X_Team_Test_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X_Team_Test_MoviesUITests.swift; sourceTree = "<group>"; };
 		201597AB236D195200001282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		201597B7236D1EAD00001282 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		208E39BC236F727B0043FECF /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		208E39BD236F727B0043FECF /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		208E39C1236F738A0043FECF /* CategoriesListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListService.swift; sourceTree = "<group>"; };
+		208E39C3236F73F80043FECF /* MovieAppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieAppConstants.swift; sourceTree = "<group>"; };
 		20C36626236D23BD001889C6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		21A80F2E4D43DC7451E2D0E8 /* Pods-X-Team_Test_MoviesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-X-Team_Test_MoviesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-X-Team_Test_MoviesUITests/Pods-X-Team_Test_MoviesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		39F4F0E46842F1A1C97FC62B /* Pods-X-Team_Test_MoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-X-Team_Test_MoviesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-X-Team_Test_MoviesTests/Pods-X-Team_Test_MoviesTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +129,7 @@
 		20159786236D194D00001282 /* X-Team_Test_Movies */ = {
 			isa = PBXGroup;
 			children = (
+				208E39A7236F710D0043FECF /* Models */,
 				201597B9236D1F8000001282 /* Extensions */,
 				20C36623236D2131001889C6 /* Network */,
 				20C36620236D20E3001889C6 /* Persistence */,
@@ -154,6 +163,7 @@
 		201597B8236D1F7300001282 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				208E39C0236F72910043FECF /* Constants */,
 				20C36621236D20F5001889C6 /* Delegates */,
 				20159790236D195100001282 /* Assets.xcassets */,
 				20159795236D195100001282 /* Info.plist */,
@@ -190,6 +200,21 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		208E39A7236F710D0043FECF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		208E39C0236F72910043FECF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				208E39C3236F73F80043FECF /* MovieAppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		20C36620236D20E3001889C6 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +243,9 @@
 		20C36623236D2131001889C6 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				208E39C1236F738A0043FECF /* CategoriesListService.swift */,
+				208E39BD236F727B0043FECF /* APIManager.swift */,
+				208E39BC236F727B0043FECF /* Reach.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -410,6 +438,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-X-Team_Test_Movies/Pods-X-Team_Test_Movies-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -417,6 +446,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -475,8 +505,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2015978C236D194D00001282 /* ViewController.swift in Sources */,
+				208E39C2236F738A0043FECF /* CategoriesListService.swift in Sources */,
+				208E39BE236F727B0043FECF /* Reach.swift in Sources */,
+				208E39BF236F727B0043FECF /* APIManager.swift in Sources */,
 				20159788236D194D00001282 /* AppDelegate.swift in Sources */,
 				2015978A236D194D00001282 /* SceneDelegate.swift in Sources */,
+				208E39C4236F73F80043FECF /* MovieAppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
