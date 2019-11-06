@@ -8,158 +8,168 @@
 
 /* Begin PBXBuildFile section */
 		0051DFFCF28651C1FA93D7EFDDAAE9EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
-		007691A463F195F0615D292E88B07C14 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F14DAEC8CE3C78E1A981B3C4A53A38D /* SDWebImageCompat.m */; };
 		00F5E54F9B5F10519B1C6E882F2BCF98 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74626FEFA840C010CAFF7413FAD9FF7 /* ResponseSerialization.swift */; };
 		036FC0A391E1A35D592187FF056850FA /* Pods-X-Team_Test_Movies-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A918BD9DAF6D6FBD2D24F0EE52AE080 /* Pods-X-Team_Test_Movies-dummy.m */; };
-		03AA5CB3460A24B8A56BE975EE74C110 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F81D41337B242C1585A42E64695120 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		069C55174180971BA21770941335494B /* SDAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFF290FF9E4AF33173CC1A1B9319693 /* SDAnimatedImageView+WebCache.m */; };
-		0890B8AF58357F2A6032A25AEE75FEDB /* SDWebImageCacheKeyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 65305B25D9DA239528AE0D794EA841B9 /* SDWebImageCacheKeyFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03EA0B6425EC500CADEB69E786D77499 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B4F20496122C65F6F32ABD36460870 /* SDWebImageManager.m */; };
+		041931276E7CB124FEC73AD7FFE9C22A /* SDWebImageCacheKeyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3360BEF52DAB07441BA1C5D243D0DD9A /* SDWebImageCacheKeyFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04973E3B9B525965D30B5B4C580E6A6C /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F1B10F6A5DA51AF1CFF654F2B48BC98 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		051653DFF3F5A00E6C5A0123352D0AF0 /* SDImageLoadersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA7E75D7267BC33EF4F007AD046C4F7 /* SDImageLoadersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C0774B2D9500058D928DF08EB36B48 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 689E561406BFAFD8DE003C07A60A514E /* SDWebImagePrefetcher.m */; };
+		0C1D30A59D727202EC5C028A4912FF58 /* SDWebImageDownloaderRequestModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3BAE116AD5885FFFB860EAE4BCB613 /* SDWebImageDownloaderRequestModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DF889C5918BB3EAFF0F892120321EDE /* Pods-X-Team_Test_Movies-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC5546238B36A4542DB9E45CA1E9B20 /* Pods-X-Team_Test_Movies-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E1B7FF218FAEA1B4312258CBE418327 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12EC4B24B88D7196C77063B1BE1E049 /* Response.swift */; };
-		0F0B52C9E56887804062D09D2F708CEE /* SDMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 730075A5911F41A6B4228DA3951C5069 /* SDMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ED0EA64903B9AD0490D4540B3F4A8D4 /* SDImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD593D3A836E342BC8B12B668F08120 /* SDImageCodersManager.m */; };
 		0F3335B5BAB5BCD6B25C1A58FA21530D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
-		100EE33183C4FE0A9148A74A604D7D30 /* SDWebImageDownloaderRequestModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D005575A3CCFDDEE512373FDC0C2AE0 /* SDWebImageDownloaderRequestModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		109A6772247614D9D8987B11192F4A61 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EC11F767BF2A24FFBBB3C1B6655A8493 /* SDWebImageDownloader.m */; };
-		10A3463631655461394F75FB27FAE2DF /* SDWebImageCacheSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 495007D6AFE74FDF975F57B59DF28C6D /* SDWebImageCacheSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		142A086589490ACDBC2E91E244C89DD0 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D196795A37143550A62FFDE583AA805 /* NSData+ImageContentType.m */; };
-		1A77467DD87A102C6C3C8F0777047F96 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8901AFDB2E496046943C2CF3E1A4F244 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11EF7BEF32AF4D64582DC0B7151395B8 /* SDImageAssetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4D16FAF6CF6DB39BABCB0D465DCA75 /* SDImageAssetManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		13831D90A13B1B27E35A3F0C1210E0FD /* SDDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC6A49AC777700ACAC326DD694FC912 /* SDDisplayLink.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1688EB3F49F42FEFD8BB6B5DCA4BCCC7 /* SDImageHEICCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA68DE18D9D6C36933DE3E2FA6C3475 /* SDImageHEICCoder.m */; };
+		17BA8F5706A98AC41EB65B146955E62E /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9842FCB249156DE667954E2AA2363B70 /* NSButton+WebCache.m */; };
+		197430DB1713615EE2422F8E8E1E577C /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A051B3FDBB357A412DBA9DF1FEDA5F /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19A5E320331CFFC4B9E3982699EC4FEF /* SDDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F3687C2E936C6D6D066C13D4B75D1B /* SDDisplayLink.m */; };
+		1C445E9F906283C41B0E14F040F21193 /* SDImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E35D8DDE749E1CB9C70EE0D96CCB88F0 /* SDImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CBBC7E55BF63676E99923ED2ECA398F /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 316F0209D527C2C5DFE30DE7AEE44C83 /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		203F2F6EDF77D58F605CCDE66910DCE3 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CB9A85FCFD637BA7CD7D9511EBBF93 /* UIImageView+WebCache.m */; };
+		204E496147CE4EBAFA9248D14E0058B8 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 036C284E3E9809F71BB79A8E8FFD25AF /* UIImage+ForceDecode.m */; };
+		21B93535A75179B4DEC610F3FF95E7AC /* SDAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4517B33B0F472CC440A40E2201A6D311 /* SDAnimatedImageView+WebCache.m */; };
 		2295D4F72B6BF059A840AEA7AC6C0D63 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC52BD6B41DD0FA36B859B1D95527FF /* SessionManager.swift */; };
 		22E7B172608E5593CFEF3DAA74C38CAB /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE53D04C8E8E00662746CA5A2184B /* DispatchQueue+Alamofire.swift */; };
-		24D233A27CF6E14111486E4C7EFFABEB /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0B11BB0F136DAF22FAE299C5BC6B7B /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		258A9E1558BA04B73657EECD7406809C /* NSImage+Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B0E94E7785369E95B1A7CAF38A7222 /* NSImage+Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27ECA1BCA7733405E0DBE41B09860D75 /* SDDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1927E9710789DD4A05F738AF90F05C43 /* SDDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29B0861A9266590CDCD000A7B2DCF593 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6263C11B1C92D16F934A8834AB3ABBB /* UIView+WebCacheOperation.m */; };
-		2A47230D322904896874AB5AD503FA90 /* SDWebImageOptionsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2F7572B1220D853BE25F2FBD37CF28 /* SDWebImageOptionsProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B643C475D406F3CF3946F3C9F667BF3 /* SDWebImageCacheKeyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC6A7724BF23D1B4534A7F5004A4BB /* SDWebImageCacheKeyFilter.m */; };
-		315A3CF58EF5B64945972C6F4F601314 /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1DF4A3FC0B19DC8F7AF117B2125E40 /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2379513C01088C82298DB6FD1792DECB /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 34627B7E450EA56B9ED28E153FEE1B84 /* NSData+ImageContentType.m */; };
+		23CDE89ED15A4E3C1C4C3F12C8C8AE32 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59AC58001F82D8303D2BCD56C1DB892 /* SDWebImage-dummy.m */; };
+		2705DE751EE49EEEC6CC5C61C14C1918 /* NSBezierPath+RoundedCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = 1114A0646E5049F658B22B21B6CE5224 /* NSBezierPath+RoundedCorners.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2A933803E9BC29805B95AA068B7066FE /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2805037105783F54BE722B87ED073E70 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8BB7005EF6DF5591D9727668784BCF /* SDImageLoadersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2DBB93FB083E314B097CEA5909490C /* SDImageLoadersManager.m */; };
+		2E0F4F4A58E423F95DD8EC6301F5EF41 /* NSImage+Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = D459EA582F2B175A023DEB25215B8978 /* NSImage+Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EB57755A31142761BD02DDFEDDB531A /* SDAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FED038CDC8749FF04CB5D82A68DA6 /* SDAnimatedImage.m */; };
+		30FD1EC73E6F93729034B2C77B44AF8A /* SDImageAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B022D204EDF38B1B4A780852CE7C638 /* SDImageAssetManager.m */; };
 		318A8D637C49BC93715793E49860727A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D1E30A9EF3853EDA4A243B9C261FA /* MultipartFormData.swift */; };
+		32BF2DB3F23BF4E9D991554EB58A4D51 /* SDAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1B4905DC8A4909A1787009F855651B /* SDAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		347DEAD729AB564EF312EF7F1656DBF0 /* SDDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A54821C0F03E76F2A26DB98532DF7EBD /* SDDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C0317DBDBA76F63ACA6C727A57BB18 /* SDWebImageDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7131B0070DE0F1E306D17BB07B8302BE /* SDWebImageDownloaderConfig.m */; };
 		35EF5F5DDA68F8BCA5AEE86F0197CB2C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07B3B7264A4ED5DFB3DBE855105952 /* Result.swift */; };
 		364CECE222730B16460B06F011B1AF35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
-		366177FB57C6C3357D30947D031F80FD /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F01744EEB4F56940307A15208787C84 /* NSButton+WebCache.m */; };
-		3680EF7E98B6274183C50DD4E8A85D4B /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E638291C6FF43B2003472EA32B26167 /* SDWebImageDownloaderOperation.m */; };
-		36D83A12281D9103C12EEAA63423BB75 /* SDImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A54798E89A1BA8F97923D208B653B376 /* SDImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		382224277709D16790639D08F34454F5 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AE078FE7DC342905521B453F3E32F1BD /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C2D40FB5AC573EB05F604565B6C26B8 /* UIImage+Transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6BB34BDCB1411B37FB72AAFD824A2E /* UIImage+Transform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37EA3249B424600E82B3C74B229923BC /* SDImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A39936DAE9B78C932CC48C35A178EB /* SDImageTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		395937DF2C6F3D5A6D5064E0AA318DBD /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CBB23FFA75944434A43F7A7C710D9D /* UIImageView+HighlightedWebCache.m */; };
+		3AB11550F8EF7F6771EED12FFE6364DA /* SDImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E854D6BEA7B2DA7A9A60C3D646CE15 /* SDImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F6E70930C17FE8AD66B3F29C91A54D0 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F34F7E3A8DBB5439B69F1B461043F /* TaskDelegate.swift */; };
-		4118F200013F8CF0F787077305FB78F3 /* SDImageCacheDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BE162D30ABE6485304F0C0C8765B5E /* SDImageCacheDefine.m */; };
-		417E386AB765EBD7627BC8A042BFE189 /* SDImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B09AF9D5917942B60580B34FFA19D30E /* SDImageTransformer.m */; };
-		41D82716591F62ACB793D9D1DFB21EC5 /* NSBezierPath+RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7767AC58450002AD35A27A62F7BBA /* NSBezierPath+RoundedCorners.m */; };
-		42AA1D3511E7151584CEE3089673D491 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0381F4A2B5DBC65A9B0E6B711DF173EF /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A39CCA333472979500B4BC0042B0F50 /* SDAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A11433647D57B9A348B7331AC0CC19 /* SDAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FD34FED685C815F7D97666ABBBCD675 /* SDWebImageIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 239E5B9CDE4D6DDA81692B470D7AF380 /* SDWebImageIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42811EC34754D25542315FB3679FFBEB /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7DABAC5BB584CD8FABC5122B7E6C71 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44EE54F25E747ED4D4C31A5C8D13ECC3 /* SDImageGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 2292FD1FED6E59E09084BCBF46AFD758 /* SDImageGraphics.m */; };
+		45AEAFE7BB368EE6961A40DEFB10115E /* SDImageCachesManagerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 697C289F28293C198553DEC959B6914C /* SDImageCachesManagerOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4845C57F721F2FA34218F9DBA39C3327 /* SDImageAPNGCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 02A65FE560B0A81D028CAC635F5214AD /* SDImageAPNGCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49946FAFDC0308073C77FD5FE8A95B78 /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FD3318D0240F39987748AB32554B00 /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A8D68CEE363CC379CAF124655CAB0B /* SDWebImageOptionsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EA5AE2DC8D13A27A96BBE7EA670BF /* SDWebImageOptionsProcessor.m */; };
 		4AEB16D0EDFD49ED686FD568C81A5DFF /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3631A929BC73589A0059D089A279A980 /* Notifications.swift */; };
-		4B4122D74EA548761F6B9E42EE69B159 /* SDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1614426B3E788E56459AACD82F85F5DA /* SDWeakProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4B67D705EC8E4C7B992D847E6335ADF3 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AB5B1D00DEEBFBC27A9D6B2923DF2 /* SessionDelegate.swift */; };
-		4B88D7106F8728E6F2CDC4400B647601 /* SDWebImageDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = A851F0CDA1FB673AD2DB43B2CCDE2E5E /* SDWebImageDefine.m */; };
-		4B997DA4D8E028AE595071F85060EFB8 /* SDAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B1529944485FD3E6ADE0CF6174EB6B83 /* SDAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C4D8D07FB14A53F45C074FAED1308AE /* SDWebImageCacheSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = D024D71047E4D7584A02941753F0C30F /* SDWebImageCacheSerializer.m */; };
-		4C6205170027FB16A0683E08685178AA /* SDImageAPNGCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A27AAF464A90079B5DDE7CBF0BDD0EA /* SDImageAPNGCoder.m */; };
-		4E4669D0F7535910E30070AC0DE6A63C /* SDImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFEB8C35D26CB9AFDB89007D940DE4C /* SDImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F1CE1B7160CC73391A4A3321FEB62F4 /* SDWebImageIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 729A74307BB75C44F56D5D35EA331074 /* SDWebImageIndicator.m */; };
-		4F7A6E2AEF4D5CF12EE2EBC2658F4D24 /* SDImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E04B4AA86B50F498D4746ACCB672569 /* SDImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50DEEEEC182752910FEF6035524A1CBE /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2793281E0129258ABA3E5B730C94C96E /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51AFD0AE067B47D284493B096018AF72 /* SDAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D6C4D99C6A6D45DC9E739CE0FF190B /* SDAnimatedImage.m */; };
-		54831136BAB7BAE92D518037AA602185 /* SDImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2490D2108F80708459CCBE093E4C221F /* SDImageIOCoder.m */; };
-		5648B028E5702CA5926CC224DE1A9F31 /* SDInternalMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD60C531ACC0AB272204D5377E1DC0F /* SDInternalMacros.m */; };
-		579EC1E7A933ADBCAA13A8CD5FDAFC85 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C299C1C3C34CB11927240E05DB46A /* UIImage+ForceDecode.m */; };
-		583DDA37ACCAF926A5E44B6CD19B6FE6 /* SDImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E849DDF5D6AE0E937274EF99BBD789 /* SDImageGIFCoder.m */; };
-		58FD6BEA1487E392C78DF6F96A3B9889 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A21184A2B3E68C09B05A1D8288ACDC /* SDImageCacheConfig.m */; };
-		59AF69745F882528E86D8527DBBBA017 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = C627A52B008CCBBCDB80969B9E63284F /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5BE88E73D3FDEB9968D0571549109EB9 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8106C5F3E5B43A6C0FBAD4C73FFA0394 /* UIImage+MultiFormat.m */; };
-		5CD909497A7ABA4258BE04DFD64B3F20 /* SDAsyncBlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0891490E423FCBC629D51911F8997391 /* SDAsyncBlockOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4C80FE57D84F62620005F1150C1D3167 /* SDImageIOAnimatedCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 991238E9C4D6D0ED98F015B493EF12BC /* SDImageIOAnimatedCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4E3C45DE8FE64964AE53D55250FF0CB6 /* SDImageHEICCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 83050B19167EC500E57F42C99E55C8D4 /* SDImageHEICCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E44E3CE986372A27B5521998F2930DF /* SDDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D35693A4C864CF30114CC70E0DA1DB /* SDDeviceHelper.m */; };
+		4EE98C8915BD56A1AACB99EDFE9E75BA /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA1300C7CB5915BBDCC96B58B65D3EF /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		50924489C23F0E58DDCF14B647B8E0C6 /* SDWebImageIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F3448DC54873643A2A4E5CF98D7692B3 /* SDWebImageIndicator.m */; };
+		51F19FC7A9F4019795B97293CFAC4C65 /* SDDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 412776702F637F57BCA9604C8E64AC65 /* SDDiskCache.m */; };
+		532EB2B3EC9723E0DBB63621DED31871 /* SDWebImageOptionsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F12DA9992A0F26DC424B450C3F6E49 /* SDWebImageOptionsProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54DFCBBA9B9B4AABD8B49C795D441BD2 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C9F38FDD3D494A9487812E94C31204 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561036A0CEA8379CE2DC098A71BA0C9E /* SDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B238636CA921274C7036438C4C5683 /* SDWeakProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5646D8A2889E490C7342A4EE6AB61F0A /* SDWebImageError.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E9A6D9911A9FA1201D8B58838C40C8 /* SDWebImageError.m */; };
+		5CE32E51E3EE2AC1E25F68F8AE4BB009 /* SDWebImageDownloaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD713FE59897EBF26907774AA246D51 /* SDWebImageDownloaderConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D7BED7EAFB5F9E46B07234A5F6B737C /* SDImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = A47B822DD8F1209C9B16DE5F50C30718 /* SDImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E8407CE1BE2BDA505D0F6488DCF0D77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
-		5FD7CDD23B026A0B0445BFAE629591FC /* SDWebImageDownloaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E4FA0BFB17C946D8729EEA76A419A4 /* SDWebImageDownloaderConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64F6BE0549D9A188EE2F9C0EA57EA1A8 /* SDImageCachesManagerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7809478CBD384724DC59146B1ABCF974 /* SDImageCachesManagerOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		64F911A407F8ACC03A7C86AC44674545 /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9D24663EAEE5D07417118D4925D0D4 /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626F98F7F4308E8EEFC89018E7A6E0BC /* SDAnimatedImagePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E51D82FC22ED285E55A2A9671C9519BF /* SDAnimatedImagePlayer.m */; };
+		62E46EAD3D16CEED056541D868CE52B6 /* SDMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E542E39EF6CEB603E5549FFB293F602 /* SDMemoryCache.m */; };
+		63202E56AA89F9104314ED047B2AA701 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAA67D8CDD477FCD106AC87FAED77F9 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6578FB710E5606A7FE1CDC6B28A35F59 /* SDImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF90C4E6B7AA8E30F7A2F057999A80E /* SDImageCoder.m */; };
 		6628F8608F61FF734DE006DF5977C1A3 /* Pods-X-Team_Test_MoviesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED24FAE82F052A17C6E82C78D92CC721 /* Pods-X-Team_Test_MoviesTests-dummy.m */; };
-		68453A9837E23272368184398B150C60 /* SDImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1A9869F2ADF4CD8B8666540C84C5D5 /* SDImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		696C50D3C2F1151D95646F36CBADF304 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4174D55BE35FDBC0E52DE23E1F7160EB /* SDWebImage-dummy.m */; };
+		66323B6AD7E9D7BAF0168C47FD09F130 /* SDMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AE45722DF0DB0EB6B608D9BEB961CECB /* SDMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689B706155B26EC60530D20794E15942 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = C815D2591B48DC633D3B2761EBCFDC4A /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A98291C66337BA2A19760D743F8A439 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F088D1A1E5946E324D388328DFE6D606 /* AFError.swift */; };
-		6F220FBAC93364887AB0FB305E0923F3 /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8976EA7AAF2CC9437E3C09FBB1F0A8 /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7168319AC55E02535FE3479637DF2B92 /* SDDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6E4A2029913C91FCB137C5118911A7 /* SDDiskCache.m */; };
-		7294DAF5E9561E9A578B5661FDDE8C5E /* SDImageLoadersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717875F47DE4E9CD839C68FCBCCBE4D /* SDImageLoadersManager.m */; };
-		736A99E1F553DB0B950237FD78F0F9D4 /* SDImageCachesManagerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E6959F77D968EB7FAD8B23AEEA461 /* SDImageCachesManagerOperation.m */; };
-		7557F586CAD0DBA6D4E7DCA784C62F38 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBA4ED705933007D065DB02E215AAA /* UIImage+GIF.m */; };
+		6AEB58855406E4A40EB053F37D0AFAB1 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFA188741BA61F2082714E7EDB2ED9A /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AEE065F8C015582DBC017A59DBFDB47 /* SDAsyncBlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9147A87050EDB6C6CA7D8DDE5EB608DF /* SDAsyncBlockOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6AF063FBFD7A6F887A97FB7FC0AEA8F0 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = B9181FC8F6E8EA2EB541AB8FEE6F451D /* UIImage+GIF.m */; };
+		6C6737C47E5DA307898E3D17028D32B2 /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = B20491425805664690F6CC3EC5BA747B /* SDAnimatedImageRep.m */; };
+		6F500AD81ECA4D9EC4B3C93B876B9FA1 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B38297A70D0F8F8F22FEA592DD6472 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E6742D5C08BB842E1FC4933874B159 /* SDWebImageDownloaderResponseModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EBB1EAB28A796177D594CF72C3F8FD /* SDWebImageDownloaderResponseModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7510A936A5CFEF2CABFA3C7B32BCAB8B /* SDImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C18B15CF774ACC3EF79A27FEC12D61B /* SDImageIOCoder.m */; };
+		7633B17EADC8651579F748304A7929FB /* SDImageGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 86868A8E8C119870065510F6F54AAF08 /* SDImageGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
-		77D25806D526992B7679D8F5B855D640 /* SDImageIOAnimatedCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AD11EA14B08212D5C8D4AA27E72066 /* SDImageIOAnimatedCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		786B08EFAD24E24E8425B20A3D9EF85E /* NSImage+Compatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = C21033BF59BF94C88F784A39424626B5 /* NSImage+Compatibility.m */; };
+		78ED52C5E2F90FF950ED2249FAE98593 /* SDAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = B0489B8D31B5C3F2D6745C128AF7E134 /* SDAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79A51663AFCE85D8ADF250181876B3E2 /* Pods-X-Team_Test_MoviesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3259B33AF5BC0DD17D00D127523430A0 /* Pods-X-Team_Test_MoviesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A0AA3B0002561B6D35C024701373166 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BB04432AFEDD9EF86AD3FB9C647B7A58 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B7795E0508B89139A8B24E9F92AEAA4 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A39A1E35430560248FC973CD8059A4 /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		814499C2225A9F1ECC2C39FD2E49D2A8 /* SDImageAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D36B566D2AB894BE45561438D0BD0B3D /* SDImageAssetManager.m */; };
-		81685969BF296D54177364D4F2838C6F /* SDImageCachesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 927F5A2F4E2720F055C70F5210BA2A78 /* SDImageCachesManager.m */; };
-		85344B621148961904554014A6CDB99B /* SDImageAssetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F129D5D81AF0557732B1905C59F894D /* SDImageAssetManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		85D9B4E18EFAF2E16DDB0F791A486081 /* UIImage+Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1430BBBF5A573D2B0FAEA95861CB95 /* UIImage+Metadata.m */; };
-		8844023DB8264B7AD33B8A81A91FF022 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7F7A084BD08BFB06D0FC4A301B7289 /* SDImageCache.m */; };
-		8852D3789EEF101A9D63C4F6CC0FD0E7 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 729EBF37E65E6DC70D10671837D7E76A /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		886C3978F29B7B98B103C9212EE8E9B1 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CA18628040D458718044F0D3A44501BB /* UIView+WebCache.m */; };
-		8977CC5C7F088A7490A2DBB18D2E6140 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = F24F34F7BA26FAFC7878D31F015617FE /* UIColor+HexString.m */; };
-		8B84B1F4A5E0A2F8DF3E73484E23A734 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B014869954B9B94610A3F8E6679D61 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BEDECE19BF2ECE42C43FA5AF31FFF0C /* SDImageCachesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C1015AB4F40FE062C870733241D93873 /* SDImageCachesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CDF1967975191099110EBAA17038429 /* SDImageLoadersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D46E05C3273CF51490C5C3DD7E4E2172 /* SDImageLoadersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CEA7C5EAC45CABD7EDB649E5AC589A2 /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FB41B432A23C2902A0F74BE7B9181C /* UIImage+Transform.m */; };
+		7CC357435C1EE50F4CE179FAF4190C6E /* NSBezierPath+RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 9383E92566286F1BD0DA44B8EF381377 /* NSBezierPath+RoundedCorners.m */; };
+		7D8E4CAF4AA157848553523B7BF24E23 /* SDWebImageDownloaderRequestModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0C94D2272D5BBAB1223268EB481ED /* SDWebImageDownloaderRequestModifier.m */; };
+		7F23C579666AE5EEE79AC996006B80B1 /* SDImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C3B1226FF72B4E6A3CEF7DFFC1FE95 /* SDImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82685795A4FEA7356B92BBED9ACF6F08 /* SDAnimatedImagePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D913BB050550717EC69DCF1FF39852CC /* SDAnimatedImagePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86A74A50A4097EFC0553DA0471B3493C /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 47AC0910DB724C1BC938F8BCFD2689E8 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88A3BF33F41D2F8139C68AD4A2FF5434 /* SDWebImageError.h in Headers */ = {isa = PBXBuildFile; fileRef = 238D87F0F08A20E8DC72FFF51C4E25C4 /* SDWebImageError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88B04298FD2DD22196BB21C5B51673E9 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E0F368BD52FEA92995C7AD0CA4ED27 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B887BDA8CE58CBD3999C4E531BAA12E /* SDImageHEICCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 06971EEF0F229D5C97B2953D1DE37FBB /* SDImageHEICCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8D29EC515D41B706BD13CE71E1619E2E /* Pods-X-Team_Test_MoviesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 204636EC8E0C795256FF1B4F7D06CD97 /* Pods-X-Team_Test_MoviesUITests-dummy.m */; };
-		902DBE137D3F2C0D392E1EF1666D42DD /* SDImageHEICCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E777F4A27EDBFDADAB38A2E717CF1A /* SDImageHEICCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		915764D8B1E1A6E056A1305243796B21 /* SDImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB041B3861AC978847EEDF67641FE291 /* SDImageCoder.m */; };
-		916302151893AB7BA9CAB85DDF1784CF /* SDImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 973BC1CEE49FD1832A7F4366D2E7810D /* SDImageCodersManager.m */; };
-		91F417D3992E5DD31B808424D9B1F8DB /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDBE86F12FD5A13637C3D1E04D53E7F /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93BD1B5F68E6FA32ABF543D16E6CD8AC /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9761FBAD86E864D4E76D37C6AB4D7373 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DCA9BB75D47DB528EA189A3093F42AC /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 324AE6DCA34EF32B9C3F88A62899572F /* SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7B30337248D1F6C11E17BCC985209B /* SDWebImageDownloaderDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DC09DB91138215BB41DC5B902754ECE7 /* SDWebImageDownloaderDecryptor.m */; };
+		9069F10EEDCAF83E186310CB2B5EC36B /* SDImageCacheDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DA487AE767B2E0EC5B06BAEC62338 /* SDImageCacheDefine.m */; };
+		9088FFA535D8B2B4B21AF5FB97B8A9C6 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F31E039A611D55BE143447C23B4A979 /* UIView+WebCacheOperation.m */; };
+		92B450C8F14679ADEA6C717D89CC3DDC /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE6739067407661339DB4D23EE60A9 /* UIView+WebCache.m */; };
+		930BEF683C687C960EC5EDDAB09AD40B /* UIImage+Transform.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB75EEE3682483BBBF38414A27D7E7F /* UIImage+Transform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9408839DAD5F6F564174B210CE54C134 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305CDC0199A7C11FAE027AA7239FF2AA /* Validation.swift */; };
 		940CAFC18E3CDBABA7B4B7B9CCC573F9 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB2312F6D16E88F70D1F49008A6C30 /* Timeline.swift */; };
-		94CA1D541F0B962DCA278A92C4241610 /* SDWebImageDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F898160B0743EF6124BC3B177FFF2F /* SDWebImageDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99AC78603F1CE85FA3C7361F0127D560 /* SDWebImageError.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AE9E942C5A35AB99AD72E88A5A1C6F /* SDWebImageError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F8F75C392CF5968D097918EB181783E /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7827D2CC6BDA40E74E991CCF060F0 /* SDWebImagePrefetcher.m */; };
-		A0BC15F374A308428710E41A787E411A /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E8281D2ADD901CCE2454539A71273F /* SDWebImageManager.m */; };
-		A314164A41789BA09EFC8904D4B0C95E /* SDImageHEICCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B0EE4E8158CA63352E0DF36750F0BA2A /* SDImageHEICCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98C9BD41C36B4D6BD36AA4E8EEBB0F61 /* SDImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B86DB232F31A5210BC9FAC1E008B54 /* SDImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D923E063F9A7715352E1912FB515DE9 /* SDWebImageDownloaderResponseModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 468BE77BE92A092B149961003BE9E711 /* SDWebImageDownloaderResponseModifier.m */; };
+		9DED725A8F9F586B56AB35814A52AD47 /* SDWebImageDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = F376BCA2577ECB41D5AB42C8FA7D80C4 /* SDWebImageDefine.m */; };
+		A0294FD023141CCB69981AD5781099E5 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F86994277FC2208DCB8BC2F2D530D1 /* SDWebImageDownloader.m */; };
+		A1F1CE65A9431A628B071A181C77281C /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FC32E23E5183E73BB71CEF7C905287 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A29F5A4359C60C0A446C8A83452D4188 /* SDImageCachesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CFC76B3D4A12903FB2ED0B5D7246DB /* SDImageCachesManager.m */; };
+		A3412AFD98B0839B470BCCD277FF57F4 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D1916D5FE292F88AEC245F857628FE /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3F0262FA538E38958CE6079EDBAE246 /* SDAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 276E76ECCE2C35CBD61497DD783E4F92 /* SDAnimatedImageView.m */; };
 		A4BDD5C6F5AD49DEE01D9119FE174B8F /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760B5CC26BD60C31C8103F95EAF3E1D /* Alamofire-dummy.m */; };
-		A69DB5225A1FAE234409F78CB36B0D06 /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 0058F3B6D81816F2A34FF9DCA60932BA /* SDAnimatedImageRep.m */; };
-		A840D9856811EDCBD21FBB4398612368 /* SDMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 20791C53AD3F1B0EAC93E3549D3ABAB8 /* SDMemoryCache.m */; };
-		A95D79FDF8ADA8F61ED920208F7920C3 /* SDWebImageError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8350716C7C8FC86C470260DE8AD31945 /* SDWebImageError.m */; };
-		AB1D2BEA384CE6991F5A88E6AE88EED8 /* SDImageHEICCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8CF1E34FBC9C8EE9CE93A4342172A4 /* SDImageHEICCoder.m */; };
-		AC023BC60B6CE44C18E47405C4E8FE02 /* SDImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2821C14972A25A36DF83EE60B15F6AB3 /* SDImageCoderHelper.m */; };
-		AC4299BDB4F7D7336C7EB4A692417640 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD36CDB2A0450BC641DA62AEED500E1 /* UIImageView+HighlightedWebCache.m */; };
-		AC99AD8873F2A7DCE892C6DBA3CB5E35 /* SDImageGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = B136F0419D352A6C95A904FAEABB61B2 /* SDImageGraphics.m */; };
-		AECBD2C45A2FB0D6139EC066905DCA0F /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C2963244311EDD75C9FF8E7D4FDABCBB /* UIButton+WebCache.m */; };
-		AF0561B316B192E14AB93A6275F3FDFA /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 343DCD0C5CED69FCFF1C75B5DDB65847 /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B17DA71ACD813222BE9F513620167327 /* SDImageIOAnimatedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DCAED347EF3AD9A7E990991C3BD99F /* SDImageIOAnimatedCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A637494D2689F86AF7E36E95C06C4592 /* SDImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D0CA4618E17A98A3808DB5F6FA1A06 /* SDImageGIFCoder.m */; };
+		A6F9A6157E71D5884CE3D1829557A895 /* NSImage+Compatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD752C9A990C9BDC18EF76D7AD76FCD /* NSImage+Compatibility.m */; };
+		AD3F84717B599277567EA26EEB412F1F /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6274A2ECF59270AAB11E7F5FD549258C /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE90334312EE8968E3EDCED5EC23B445 /* SDWebImageDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E3783402761E75E672413FB50775CF5A /* SDWebImageDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF05381DF2C0354135767BF7AEBD8894 /* SDImageIOAnimatedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5647B03D6A5F4ACD7B0C87593EA204 /* SDImageIOAnimatedCoder.m */; };
+		AF0F4BCF7749C939654777F3430BF3A5 /* SDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2138C81C5E723ADEE72A7ED6C38472CD /* SDImageLoader.m */; };
+		AFA9123BC2905895B892675812F91C13 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 301AED5184367AD81FAB10C3DBF1A86F /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3FE4B270C8EDAE80D3028256E9DEF69 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBAC6624EB9709E5E5952C3BFC171B /* ServerTrustPolicy.swift */; };
-		B6ED7DA1C7C69F1C85C24266589798CC /* SDWebImageDownloaderRequestModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A1F25C529D83F9AE62B9803F953A13 /* SDWebImageDownloaderRequestModifier.m */; };
-		B74D3A2029A5E7619E7FD5F6C5363E70 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C328C339B8F29AE6EE62FB9CDB9677D /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7EA832728D61479CB9AB19FBF401EDE /* SDmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1A22B04C4310C3E964CAFB3422D899 /* SDmetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BD0B8AB32B5DFA5EC00D3442A6E1593D /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = FD73FAD1330FAADDDD6612872EF9F49F /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B604E6EE050FE61CEBA88515F881A57A /* SDImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C6A4CD775775CDF7BCE80AC0B89C2 /* SDImageCoderHelper.m */; };
+		B952CCA494B35335DAB23C605266E3C8 /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1CB27888B1090AB2A591E6AF55429A /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBD56361526F03F9FD36CFB440096B5B /* SDWebImageCacheKeyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CDF1FC32B24CF9B305B0F3B42E218D /* SDWebImageCacheKeyFilter.m */; };
 		BD7BD32AEF475931300347FCD7BCF92B /* Pods-X-Team_Test_MoviesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA70045B9DFCE92F5C22EABBF44BCC2 /* Pods-X-Team_Test_MoviesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF702728667D63F31FE6CF7EB398EFC7 /* SDWebImageIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = DD137D6B7E43FC675D65119E782A264C /* SDWebImageIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF9887D9297C0499862EE97FE429B16F /* SDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761D7616079D80FEC2A14710DCB8306 /* SDWeakProxy.m */; };
-		C1038791867E53A60841CEA37E392309 /* SDWebImageOptionsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A9924D235D47753B46E4F6E708386 /* SDWebImageOptionsProcessor.m */; };
+		BE3F96DB107AE2DAD6FEDC9548EBEEC0 /* SDInternalMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87DDC2DEECEF50ACCB7591356A24F9 /* SDInternalMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BEE52FD35AC9D6FB3AD2084D4685F179 /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CF5CC17CE708F9F835C2FF0C68781C /* SDWebImageTransition.m */; };
+		BFE5C02004C9F5FE06DBAD261CDFB859 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C1875748C8B34B8E4C58BF6EDB6CD599 /* SDWebImageDownloaderOperation.m */; };
 		C289D64FD07D76C21DD3BC3E2ED9965A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC349DE8D44B0CBFEA385FEACF3CEE /* Request.swift */; };
-		C5592C8BFB163E4330294935E7ED652D /* NSBezierPath+RoundedCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = 908D8B36FC79C13D219B108567A48CFF /* NSBezierPath+RoundedCorners.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C645934DBECFF0D6F6F819FC8AF93B92 /* SDImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CCFFF4A211F50A909F16D4F28B390B /* SDImageFrame.m */; };
-		C676E48386B53D48733BA15F7CB1E56C /* UIImage+MemoryCacheCost.m in Sources */ = {isa = PBXBuildFile; fileRef = D39528A69C8C8C98AE11ACAB4872161F /* UIImage+MemoryCacheCost.m */; };
-		C7A3AE10927D9F427394BA3A537DDACB /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BBB7436EA2AE48A401F8FF588DC207 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA130D2D0FCAA20F0543FBEB9741912F /* SDAnimatedImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D05119D10B88A7E09D317F73E760FA /* SDAnimatedImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDD6917CDE2CCD1FAED6E3011F89CBE4 /* SDAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83097028DDA3867366FA6E2819403EA2 /* SDAnimatedImageView.m */; };
-		CE385CB77F3FDC357AC131418145CE87 /* SDImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A55BE2D86B23C6E65244C9CE9E0CEE /* SDImageTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1AEB3183F7D240CD1AA4D85A5BD9CAE /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 706F1840CC1B87524BE82889E450B353 /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D46F168505CA6AC06896BF9BC51A50CF /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AB6471F798FAB620F236BB3A505873 /* SDWebImageTransition.m */; };
-		D5C6194C1B3619116A210C6688A81C10 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 68406E87F56E912E0E26C32949077513 /* SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8E69F6AF913FD5339D88B3D45512813 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A93107DB8AED181C8589087746B5A0 /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBC1A985776E03624D40902B177F33B8 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A2AE2A0FDE92858ECEF12112EE2B43 /* UIImageView+WebCache.m */; };
+		C3203114C4370056EB5128EA3C01C948 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BE4BD53EA54CDE40718BC0260E7B3B /* UIButton+WebCache.m */; };
+		C65433F5DE7D448DC9DC2A09A29E6A1A /* SDInternalMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 630FDB8B49D19C5BDE0B3F672072BA88 /* SDInternalMacros.m */; };
+		C78A8B1A169A29C3E9856D4B2A14962C /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D58112114709B3A801105F232C4FC83 /* UIImage+Transform.m */; };
+		C8A7D8A32344B5BD31276FC7BFB85BC5 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DCC93E5A9839E13AB7303C56EC5652 /* SDImageCache.m */; };
+		CDB707EB1A706C983686C2D2949EA763 /* SDImageAPNGCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C418781FB90171F35F1EF3EEB07862F /* SDImageAPNGCoder.m */; };
+		CEC8A06D87D3C8A51D6D3814D327331A /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = F80D1A474009BBCDC1FA254001471A7E /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6732614200F20687E70E7B0155AB9A8 /* SDImageIOAnimatedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 455E8147DBD9C688AE0AC871AC0AFC88 /* SDImageIOAnimatedCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBC502A65A3ED5E0310E1C1F1CE7DCB3 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D7C18C42E6168A78603F54C0C842E /* ParameterEncoding.swift */; };
-		DBC888BDE7879652B62A12D7751DC5E2 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AF2C4EAA5A9F69B87E033651D92B5A1A /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCD32982E86EB5E4635A839F6269944C /* SDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A108B72DC02BEF7AC37B3ED26C5BDF6 /* SDImageLoader.m */; };
+		DD03FDDA0531EB3D8092BC70F0065C0C /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 49977C78A163F7393249A637A8B0680A /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDC19ABA63DA89EE1775E64BE2CA6AB9 /* UIImage+MemoryCacheCost.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A0B24008218783DAABD001016F2FAE /* UIImage+MemoryCacheCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE6FAB1D465ACE7A75BB42B480C7B46B /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3015A828E07A9895123E8E3CF9BEB883 /* Alamofire.swift */; };
-		E29A5279FDA7E56199A58E63A84590CC /* SDImageGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC5BDC9EB498DD28D79EE373092FF91 /* SDImageGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5C4A4F565CB969B3A6D8957BDD32C2B /* UIImage+MemoryCacheCost.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FB79BF5D463749E4072B9B7D7984D7 /* UIImage+MemoryCacheCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6FBDC371BA32F40F05C83C17D2111C9 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = B806DD29FA84AAB239E65E7A2C0059B9 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E82614E6DE640FBBB248201EAEEF932F /* SDInternalMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E8D799E1D73991F2BBFCE7A01362D3 /* SDInternalMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DFE98031D977953D055BCCD3148D2066 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 015910082C2AB61FC18B4A82BA99EC9B /* UIColor+HexString.m */; };
+		E07FD158FFE84A74639CE7886FDE76B0 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 171138BA5B900E7B6FE5987842F06C1F /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B26F13288C1A93CEA8CBA33C1C8015 /* SDImageCachesManagerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE13E7DAEA1CBC9608600DB4B1744CA4 /* SDImageCachesManagerOperation.m */; };
+		E1731E3F81AB2B92CA6016A1333E4539 /* SDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C01AC0A399868DF4C06EA96F12ED6F7 /* SDWeakProxy.m */; };
+		E1763FB7AE2B0A01D5245555AA909774 /* SDAsyncBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489E046880854D19432F1AD5BF61F91 /* SDAsyncBlockOperation.m */; };
+		E568AABB01E8800B7036989E16B6EC37 /* SDImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 698FA482EC9D3AD81AC7E0576A4B49FC /* SDImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E622DF3A5AD260B54FFCB11C5071934E /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B614FEF27062D6F5245EDCCB8845A61 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E76AA3C121CD832478BF2DA451F6C6B6 /* SDWebImageCacheSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A1F0EC928EE416D3A1F7CC80FEE137 /* SDWebImageCacheSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E776B379A41ADA2D7AD171C96A15BE6B /* SDAnimatedImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2E2C515C1A1BA82513CF294BFA2241 /* SDAnimatedImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7A2F3C9BE69935E6EA4781DABB284ED /* UIImage+MemoryCacheCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E43B7600B6B37EB23FF0DCFA2A50D /* UIImage+MemoryCacheCost.m */; };
+		E83249926AC749039A7E9558D364A0E1 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A1ABB0FD7170D25672F515DA0C478757 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E866C1491FE5341A01A4861F12CBEE41 /* SDWebImageCacheSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22487D096DD6711D897E285634DFD4F1 /* SDWebImageCacheSerializer.m */; };
 		E98AB9B287D7C09532F0C7728906AD12 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82001C8A0D33037C941BFAFADB9B7996 /* NetworkReachabilityManager.swift */; };
-		EEA5ED1F2AE91DEE8643FF825B6E14D4 /* SDImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7761825907698D6FCA0DD1FC1A4917CA /* SDImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFD30532ABF5AEE926B49725455B8C1A /* SDImageIOAnimatedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AA94BBA459F9E5BFE3D9A478C9F916 /* SDImageIOAnimatedCoder.m */; };
-		F23C877CA5C291142B253531F9842B6C /* SDImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 481DBCDE00144F37DF4DEBF326B13EB9 /* SDImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C4C92F53A09A6929B0FDD25AAE74C9 /* SDAsyncBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FD0681EFDEBBE52C9C8435848E928F /* SDAsyncBlockOperation.m */; };
-		F70C83B2E65A171621522C27E594AA16 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4E0EC92D32EBE7414D2D18D44A5C2E /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB1A967957EFC02D115CF1BD31C4A471 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DDE6604BD619723193934EFD68AD846 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB62FCA60469A24E9148B1D235B4C28A /* SDWebImageDownloaderDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7014773C856E6EBFAE630C5CA58D02 /* SDWebImageDownloaderDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC925EF9F29C08B5A26D1DB3152D720F /* UIImage+Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D338D00B87627646C44D91AEBCFC8A4 /* UIImage+Metadata.m */; };
+		ECD9FD1FD4FB03FF2D526E21D98EFC02 /* SDImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A76124561B7B44A6A71559991384CA33 /* SDImageTransformer.m */; };
+		EE2A12AFC54CBB86446DE8DDAFAA3D5C /* SDmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB7FA45651057EE2468B19EF0175217 /* SDmetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F32B923F48407C5D61DBA1820C41D030 /* SDDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CF265229408F60D6E0AA3E4DC4B8ECD9 /* SDDeviceHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F6B4C9F963417A7532F9B125BD40F506 /* SDImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB652107AAFFE12ABF42E25BB11A19 /* SDImageFrame.m */; };
+		F723320AD732AE87866E354BA8600005 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 170C691792F736D6E8681B1E51A0111F /* SDWebImageCompat.m */; };
 		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D987428ABC108097C3F4776131D3F814 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCAC1F422A3E7BF722E4F127505E9A1C /* SDImageAPNGCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 12671E4591F9BA4C0B3A5A74904B1288 /* SDImageAPNGCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD0D6EA9B78D3134FDBECD707F000156 /* SDWebImageDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A934E6D0AC19FBE14B939394E9B717 /* SDWebImageDownloaderConfig.m */; };
+		FBF1B8AB019F1145092D8610C4F567A0 /* SDImageCachesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEF8F4943178DFFC1910F0793412D20 /* SDImageCachesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF76E3217ED5BDA9A88D80388BA1EEE /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 41846E294B5802073703C0B55219AF30 /* SDImageCacheConfig.m */; };
+		FD7630D24EA8D3E5C983C2111CED0C21 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B9E13891952BAED3A2844602C3E4C5 /* UIImage+MultiFormat.m */; };
 		FFAFCBF0A6C668221C5FEA2B4AAC4C0E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B346D06D281D4D3C396F9BBE3DBF0FFE /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
@@ -195,194 +205,204 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0058F3B6D81816F2A34FF9DCA60932BA /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/Core/SDAnimatedImageRep.m; sourceTree = "<group>"; };
-		0381F4A2B5DBC65A9B0E6B711DF173EF /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/Core/UIImage+GIF.h"; sourceTree = "<group>"; };
-		06BBB7436EA2AE48A401F8FF588DC207 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/Core/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
-		0717875F47DE4E9CD839C68FCBCCBE4D /* SDImageLoadersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoadersManager.m; path = SDWebImage/Core/SDImageLoadersManager.m; sourceTree = "<group>"; };
-		0891490E423FCBC629D51911F8997391 /* SDAsyncBlockOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAsyncBlockOperation.h; path = SDWebImage/Private/SDAsyncBlockOperation.h; sourceTree = "<group>"; };
-		09D05119D10B88A7E09D317F73E760FA /* SDAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDAnimatedImageView+WebCache.h"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
-		0F14DAEC8CE3C78E1A981B3C4A53A38D /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/Core/SDWebImageCompat.m; sourceTree = "<group>"; };
-		11A934E6D0AC19FBE14B939394E9B717 /* SDWebImageDownloaderConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderConfig.m; path = SDWebImage/Core/SDWebImageDownloaderConfig.m; sourceTree = "<group>"; };
-		12671E4591F9BA4C0B3A5A74904B1288 /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
-		15B014869954B9B94610A3F8E6679D61 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/Core/SDWebImageOperation.h; sourceTree = "<group>"; };
-		1614426B3E788E56459AACD82F85F5DA /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
-		1927E9710789DD4A05F738AF90F05C43 /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/Core/SDDiskCache.h; sourceTree = "<group>"; };
+		015910082C2AB61FC18B4A82BA99EC9B /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "SDWebImage/Private/UIColor+HexString.m"; sourceTree = "<group>"; };
+		02A65FE560B0A81D028CAC635F5214AD /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
+		036C284E3E9809F71BB79A8E8FFD25AF /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/Core/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
+		04FD3318D0240F39987748AB32554B00 /* SDImageCacheDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDefine.h; path = SDWebImage/Core/SDImageCacheDefine.h; sourceTree = "<group>"; };
+		06971EEF0F229D5C97B2953D1DE37FBB /* SDImageHEICCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoderInternal.h; path = SDWebImage/Private/SDImageHEICCoderInternal.h; sourceTree = "<group>"; };
+		0B022D204EDF38B1B4A780852CE7C638 /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
+		0FBB652107AAFFE12ABF42E25BB11A19 /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/Core/SDImageFrame.m; sourceTree = "<group>"; };
+		1114A0646E5049F658B22B21B6CE5224 /* NSBezierPath+RoundedCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+RoundedCorners.h"; path = "SDWebImage/Private/NSBezierPath+RoundedCorners.h"; sourceTree = "<group>"; };
+		11A051B3FDBB357A412DBA9DF1FEDA5F /* UIImage+Metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Metadata.h"; path = "SDWebImage/Core/UIImage+Metadata.h"; sourceTree = "<group>"; };
+		16D35693A4C864CF30114CC70E0DA1DB /* SDDeviceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDeviceHelper.m; path = SDWebImage/Private/SDDeviceHelper.m; sourceTree = "<group>"; };
+		170C691792F736D6E8681B1E51A0111F /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/Core/SDWebImageCompat.m; sourceTree = "<group>"; };
+		171138BA5B900E7B6FE5987842F06C1F /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/Core/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
 		1A918BD9DAF6D6FBD2D24F0EE52AE080 /* Pods-X-Team_Test_Movies-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-X-Team_Test_Movies-dummy.m"; sourceTree = "<group>"; };
 		1AF21B12F5660B06EFE9A098157E518C /* Pods-X-Team_Test_Movies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-X-Team_Test_Movies.debug.xcconfig"; sourceTree = "<group>"; };
+		1B7FED038CDC8749FF04CB5D82A68DA6 /* SDAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImage.m; path = SDWebImage/Core/SDAnimatedImage.m; sourceTree = "<group>"; };
 		1B8AB5B1D00DEEBFBC27A9D6B2923DF2 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		1D9D24663EAEE5D07417118D4925D0D4 /* UIImage+Metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Metadata.h"; path = "SDWebImage/Core/UIImage+Metadata.h"; sourceTree = "<group>"; };
+		1D58112114709B3A801105F232C4FC83 /* UIImage+Transform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Transform.m"; path = "SDWebImage/Core/UIImage+Transform.m"; sourceTree = "<group>"; };
 		1F92F2645523E8136C16BDC89827DFE5 /* Pods-X-Team_Test_Movies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-X-Team_Test_Movies.release.xcconfig"; sourceTree = "<group>"; };
 		204636EC8E0C795256FF1B4F7D06CD97 /* Pods-X-Team_Test_MoviesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-X-Team_Test_MoviesUITests-dummy.m"; sourceTree = "<group>"; };
-		20791C53AD3F1B0EAC93E3549D3ABAB8 /* SDMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDMemoryCache.m; path = SDWebImage/Core/SDMemoryCache.m; sourceTree = "<group>"; };
+		2138C81C5E723ADEE72A7ED6C38472CD /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		216F34F7E3A8DBB5439B69F1B461043F /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		21E849DDF5D6AE0E937274EF99BBD789 /* SDImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGIFCoder.m; path = SDWebImage/Core/SDImageGIFCoder.m; sourceTree = "<group>"; };
+		21BE4BD53EA54CDE40718BC0260E7B3B /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		22487D096DD6711D897E285634DFD4F1 /* SDWebImageCacheSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheSerializer.m; path = SDWebImage/Core/SDWebImageCacheSerializer.m; sourceTree = "<group>"; };
+		2292FD1FED6E59E09084BCBF46AFD758 /* SDImageGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGraphics.m; path = SDWebImage/Core/SDImageGraphics.m; sourceTree = "<group>"; };
+		238D87F0F08A20E8DC72FFF51C4E25C4 /* SDWebImageError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageError.h; path = SDWebImage/Core/SDWebImageError.h; sourceTree = "<group>"; };
+		239E5B9CDE4D6DDA81692B470D7AF380 /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2490D2108F80708459CCBE093E4C221F /* SDImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOCoder.m; path = SDWebImage/Core/SDImageIOCoder.m; sourceTree = "<group>"; };
-		2793281E0129258ABA3E5B730C94C96E /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
-		2821C14972A25A36DF83EE60B15F6AB3 /* SDImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoderHelper.m; path = SDWebImage/Core/SDImageCoderHelper.m; sourceTree = "<group>"; };
+		276E76ECCE2C35CBD61497DD783E4F92 /* SDAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageView.m; path = SDWebImage/Core/SDAnimatedImageView.m; sourceTree = "<group>"; };
+		27F3687C2E936C6D6D066C13D4B75D1B /* SDDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDisplayLink.m; path = SDWebImage/Private/SDDisplayLink.m; sourceTree = "<group>"; };
+		2805037105783F54BE722B87ED073E70 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/Core/SDImageCache.h; sourceTree = "<group>"; };
 		2A5FE53D04C8E8E00662746CA5A2184B /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		2B614FEF27062D6F5245EDCCB8845A61 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/Core/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		2BBB2312F6D16E88F70D1F49008A6C30 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		2BD60C531ACC0AB272204D5377E1DC0F /* SDInternalMacros.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDInternalMacros.m; path = SDWebImage/Private/SDInternalMacros.m; sourceTree = "<group>"; };
+		2C418781FB90171F35F1EF3EEB07862F /* SDImageAPNGCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAPNGCoder.m; path = SDWebImage/Core/SDImageAPNGCoder.m; sourceTree = "<group>"; };
 		2DFBAC6624EB9709E5E5952C3BFC171B /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		2EB7767AC58450002AD35A27A62F7BBA /* NSBezierPath+RoundedCorners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+RoundedCorners.m"; path = "SDWebImage/Private/NSBezierPath+RoundedCorners.m"; sourceTree = "<group>"; };
-		2F1430BBBF5A573D2B0FAEA95861CB95 /* UIImage+Metadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Metadata.m"; path = "SDWebImage/Core/UIImage+Metadata.m"; sourceTree = "<group>"; };
+		2EFA188741BA61F2082714E7EDB2ED9A /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/Core/SDWebImageManager.h; sourceTree = "<group>"; };
 		3015A828E07A9895123E8E3CF9BEB883 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		301AED5184367AD81FAB10C3DBF1A86F /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/Core/SDAnimatedImageRep.h; sourceTree = "<group>"; };
 		305CDC0199A7C11FAE027AA7239FF2AA /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		30A93107DB8AED181C8589087746B5A0 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/Core/SDAnimatedImageRep.h; sourceTree = "<group>"; };
+		316F0209D527C2C5DFE30DE7AEE44C83 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
+		31C9F38FDD3D494A9487812E94C31204 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/Core/UIView+WebCache.h"; sourceTree = "<group>"; };
 		32020CE701C923A3679EB63B6E3922B1 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		324AE6DCA34EF32B9C3F88A62899572F /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
 		3259B33AF5BC0DD17D00D127523430A0 /* Pods-X-Team_Test_MoviesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-X-Team_Test_MoviesTests-umbrella.h"; sourceTree = "<group>"; };
-		33A39A1E35430560248FC973CD8059A4 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/Core/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
-		343DCD0C5CED69FCFF1C75B5DDB65847 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
+		3360BEF52DAB07441BA1C5D243D0DD9A /* SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheKeyFilter.h; path = SDWebImage/Core/SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
+		33B238636CA921274C7036438C4C5683 /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
+		34627B7E450EA56B9ED28E153FEE1B84 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/Core/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		3631A929BC73589A0059D089A279A980 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		3F5A9924D235D47753B46E4F6E708386 /* SDWebImageOptionsProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOptionsProcessor.m; path = SDWebImage/Core/SDWebImageOptionsProcessor.m; sourceTree = "<group>"; };
-		4174D55BE35FDBC0E52DE23E1F7160EB /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
-		41A2AE2A0FDE92858ECEF12112EE2B43 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/Core/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		37CFC76B3D4A12903FB2ED0B5D7246DB /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/Core/SDImageCachesManager.m; sourceTree = "<group>"; };
+		412776702F637F57BCA9604C8E64AC65 /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
+		41846E294B5802073703C0B55219AF30 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/Core/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		433F77AB87B8C8D3ADE30D765667F7F6 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		46A55BE2D86B23C6E65244C9CE9E0CEE /* SDImageTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageTransformer.h; path = SDWebImage/Core/SDImageTransformer.h; sourceTree = "<group>"; };
-		47A21184A2B3E68C09B05A1D8288ACDC /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/Core/SDImageCacheConfig.m; sourceTree = "<group>"; };
-		481DBCDE00144F37DF4DEBF326B13EB9 /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/Core/SDImageFrame.h; sourceTree = "<group>"; };
-		495007D6AFE74FDF975F57B59DF28C6D /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/Core/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
-		4A27AAF464A90079B5DDE7CBF0BDD0EA /* SDImageAPNGCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAPNGCoder.m; path = SDWebImage/Core/SDImageAPNGCoder.m; sourceTree = "<group>"; };
-		4AFEB8C35D26CB9AFDB89007D940DE4C /* SDImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoderHelper.h; path = SDWebImage/Core/SDImageCoderHelper.h; sourceTree = "<group>"; };
+		44B9E13891952BAED3A2844602C3E4C5 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/Core/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		4517B33B0F472CC440A40E2201A6D311 /* SDAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDAnimatedImageView+WebCache.m"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
+		455E8147DBD9C688AE0AC871AC0AFC88 /* SDImageIOAnimatedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoder.h; path = SDWebImage/Core/SDImageIOAnimatedCoder.h; sourceTree = "<group>"; };
+		45B38297A70D0F8F8F22FEA592DD6472 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/Core/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		468BE77BE92A092B149961003BE9E711 /* SDWebImageDownloaderResponseModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderResponseModifier.m; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.m; sourceTree = "<group>"; };
+		47AC0910DB724C1BC938F8BCFD2689E8 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		495910B8CD83DAA3826C47D487975E96 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		49977C78A163F7393249A637A8B0680A /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/Core/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		4C2E2C515C1A1BA82513CF294BFA2241 /* SDAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDAnimatedImageView+WebCache.h"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
+		4D338D00B87627646C44D91AEBCFC8A4 /* UIImage+Metadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Metadata.m"; path = "SDWebImage/Core/UIImage+Metadata.m"; sourceTree = "<group>"; };
 		4DA70045B9DFCE92F5C22EABBF44BCC2 /* Pods-X-Team_Test_MoviesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-X-Team_Test_MoviesUITests-umbrella.h"; sourceTree = "<group>"; };
-		4E638291C6FF43B2003472EA32B26167 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/Core/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
-		4ECC6A7724BF23D1B4534A7F5004A4BB /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/Core/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
-		50E777F4A27EDBFDADAB38A2E717CF1A /* SDImageHEICCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoderInternal.h; path = SDWebImage/Private/SDImageHEICCoderInternal.h; sourceTree = "<group>"; };
-		561D37E70FDAD720AC3C0F73E52A13F0 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
-		573E6959F77D968EB7FAD8B23AEEA461 /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
-		57AE9E942C5A35AB99AD72E88A5A1C6F /* SDWebImageError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageError.h; path = SDWebImage/Core/SDWebImageError.h; sourceTree = "<group>"; };
+		4DEE6739067407661339DB4D23EE60A9 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/Core/UIView+WebCache.m"; sourceTree = "<group>"; };
+		4E4DA487AE767B2E0EC5B06BAEC62338 /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/Core/SDImageCacheDefine.m; sourceTree = "<group>"; };
+		517E43B7600B6B37EB23FF0DCFA2A50D /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
+		53CB9A85FCFD637BA7CD7D9511EBBF93 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/Core/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		55A0B24008218783DAABD001016F2FAE /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
 		594A9DC8A78051196E12D4E7AA354A98 /* Pods-X-Team_Test_Movies-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-X-Team_Test_Movies-acknowledgements.markdown"; sourceTree = "<group>"; };
-		59A1F25C529D83F9AE62B9803F953A13 /* SDWebImageDownloaderRequestModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderRequestModifier.m; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.m; sourceTree = "<group>"; };
-		59CCFFF4A211F50A909F16D4F28B390B /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/Core/SDImageFrame.m; sourceTree = "<group>"; };
-		5A6BB34BDCB1411B37FB72AAFD824A2E /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/Core/UIImage+Transform.h"; sourceTree = "<group>"; };
-		5C328C339B8F29AE6EE62FB9CDB9677D /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/Core/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
-		5D005575A3CCFDDEE512373FDC0C2AE0 /* SDWebImageDownloaderRequestModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderRequestModifier.h; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.h; sourceTree = "<group>"; };
-		5E04B4AA86B50F498D4746ACCB672569 /* SDImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOCoder.h; path = SDWebImage/Core/SDImageIOCoder.h; sourceTree = "<group>"; };
-		65305B25D9DA239528AE0D794EA841B9 /* SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheKeyFilter.h; path = SDWebImage/Core/SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
-		65D6C4D99C6A6D45DC9E739CE0FF190B /* SDAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImage.m; path = SDWebImage/Core/SDAnimatedImage.m; sourceTree = "<group>"; };
+		5F1CB27888B1090AB2A591E6AF55429A /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/Core/NSButton+WebCache.h"; sourceTree = "<group>"; };
+		5F31E039A611D55BE143447C23B4A979 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/Core/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		5FC6A49AC777700ACAC326DD694FC912 /* SDDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDisplayLink.h; path = SDWebImage/Private/SDDisplayLink.h; sourceTree = "<group>"; };
+		61B86DB232F31A5210BC9FAC1E008B54 /* SDImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOCoder.h; path = SDWebImage/Core/SDImageIOCoder.h; sourceTree = "<group>"; };
+		6274A2ECF59270AAB11E7F5FD549258C /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/Core/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		62D0A6EE174A3773753D1477A9D62426 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		630FDB8B49D19C5BDE0B3F672072BA88 /* SDInternalMacros.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDInternalMacros.m; path = SDWebImage/Private/SDInternalMacros.m; sourceTree = "<group>"; };
 		6644E3E9B13D6452BCBFF389BC1B4904 /* Pods-X-Team_Test_Movies-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-X-Team_Test_Movies-acknowledgements.plist"; sourceTree = "<group>"; };
 		6760B5CC26BD60C31C8103F95EAF3E1D /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		6761D7616079D80FEC2A14710DCB8306 /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
-		68406E87F56E912E0E26C32949077513 /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
-		68E8D799E1D73991F2BBFCE7A01362D3 /* SDInternalMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDInternalMacros.h; path = SDWebImage/Private/SDInternalMacros.h; sourceTree = "<group>"; };
-		6B8976EA7AAF2CC9437E3C09FBB1F0A8 /* SDImageCacheDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDefine.h; path = SDWebImage/Core/SDImageCacheDefine.h; sourceTree = "<group>"; };
+		689E561406BFAFD8DE003C07A60A514E /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/Core/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		697C289F28293C198553DEC959B6914C /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
+		698FA482EC9D3AD81AC7E0576A4B49FC /* SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoader.h; path = SDWebImage/Core/SDImageLoader.h; sourceTree = "<group>"; };
+		6BF0C94D2272D5BBAB1223268EB481ED /* SDWebImageDownloaderRequestModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderRequestModifier.m; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.m; sourceTree = "<group>"; };
+		6C01AC0A399868DF4C06EA96F12ED6F7 /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
+		6C2DBB93FB083E314B097CEA5909490C /* SDImageLoadersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoadersManager.m; path = SDWebImage/Core/SDImageLoadersManager.m; sourceTree = "<group>"; };
 		6D1D7C18C42E6168A78603F54C0C842E /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		6F01744EEB4F56940307A15208787C84 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/Core/NSButton+WebCache.m"; sourceTree = "<group>"; };
-		6F1A9869F2ADF4CD8B8666540C84C5D5 /* SDImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCodersManager.h; path = SDWebImage/Core/SDImageCodersManager.h; sourceTree = "<group>"; };
+		6D5647B03D6A5F4ACD7B0C87593EA204 /* SDImageIOAnimatedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOAnimatedCoder.m; path = SDWebImage/Core/SDImageIOAnimatedCoder.m; sourceTree = "<group>"; };
+		6F4D16FAF6CF6DB39BABCB0D465DCA75 /* SDImageAssetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAssetManager.h; path = SDWebImage/Private/SDImageAssetManager.h; sourceTree = "<group>"; };
 		705ED1BCA7E8DDE2C8D08B754C1548DD /* Pods_X_Team_Test_Movies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_X_Team_Test_Movies.framework; path = "Pods-X-Team_Test_Movies.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		706F1840CC1B87524BE82889E450B353 /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/Core/SDWebImageTransition.h; sourceTree = "<group>"; };
 		70DC85F9AF209547B0D083AE00760355 /* Pods-X-Team_Test_MoviesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-X-Team_Test_MoviesUITests.modulemap"; sourceTree = "<group>"; };
-		729A74307BB75C44F56D5D35EA331074 /* SDWebImageIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageIndicator.m; path = SDWebImage/Core/SDWebImageIndicator.m; sourceTree = "<group>"; };
-		729EBF37E65E6DC70D10671837D7E76A /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/Core/SDWebImageDownloader.h; sourceTree = "<group>"; };
-		730075A5911F41A6B4228DA3951C5069 /* SDMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDMemoryCache.h; path = SDWebImage/Core/SDMemoryCache.h; sourceTree = "<group>"; };
+		7131B0070DE0F1E306D17BB07B8302BE /* SDWebImageDownloaderConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderConfig.m; path = SDWebImage/Core/SDWebImageDownloaderConfig.m; sourceTree = "<group>"; };
+		72CDF1FC32B24CF9B305B0F3B42E218D /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/Core/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
 		73453B9BF6F0E862D8C9DDA23DE17AFE /* Pods-X-Team_Test_Movies-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-X-Team_Test_Movies-frameworks.sh"; sourceTree = "<group>"; };
-		73F0B478E1AC0230F72C263BA852E15A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74B0E94E7785369E95B1A7CAF38A7222 /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/Core/NSImage+Compatibility.h"; sourceTree = "<group>"; };
-		75AD11EA14B08212D5C8D4AA27E72066 /* SDImageIOAnimatedCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoderInternal.h; path = SDWebImage/Private/SDImageIOAnimatedCoderInternal.h; sourceTree = "<group>"; };
-		7761825907698D6FCA0DD1FC1A4917CA /* SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoader.h; path = SDWebImage/Core/SDImageLoader.h; sourceTree = "<group>"; };
-		7809478CBD384724DC59146B1ABCF974 /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
 		78F30DBFD50F10DCE98715CD5E61FAC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79AA94BBA459F9E5BFE3D9A478C9F916 /* SDImageIOAnimatedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOAnimatedCoder.m; path = SDWebImage/Core/SDImageIOAnimatedCoder.m; sourceTree = "<group>"; };
+		79CF5CC17CE708F9F835C2FF0C68781C /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/Core/SDWebImageTransition.m; sourceTree = "<group>"; };
 		79E9270C7EDF465A9F815C1124B8162A /* Pods-X-Team_Test_MoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-X-Team_Test_MoviesTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B89D3CC0565EF32B959AB3F79D4582F /* Pods-X-Team_Test_Movies.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-X-Team_Test_Movies.modulemap"; sourceTree = "<group>"; };
-		7BFBA4ED705933007D065DB02E215AAA /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/Core/UIImage+GIF.m"; sourceTree = "<group>"; };
+		7BB7FA45651057EE2468B19EF0175217 /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
 		7D3587300A030B3D091CBEC03C965E94 /* Pods_X_Team_Test_MoviesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_X_Team_Test_MoviesUITests.framework; path = "Pods-X-Team_Test_MoviesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC0ACAB2412E813321FF8A5EE2B9FD4 /* Pods-X-Team_Test_MoviesUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-X-Team_Test_MoviesUITests-resources.sh"; sourceTree = "<group>"; };
-		7F129D5D81AF0557732B1905C59F894D /* SDImageAssetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAssetManager.h; path = SDWebImage/Private/SDImageAssetManager.h; sourceTree = "<group>"; };
+		7F1B10F6A5DA51AF1CFF654F2B48BC98 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/Core/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		808030BFA0076BE0982FB50ADC7FA5AC /* Pods-X-Team_Test_MoviesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-X-Team_Test_MoviesTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8106C5F3E5B43A6C0FBAD4C73FFA0394 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/Core/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		82001C8A0D33037C941BFAFADB9B7996 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		83097028DDA3867366FA6E2819403EA2 /* SDAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageView.m; path = SDWebImage/Core/SDAnimatedImageView.m; sourceTree = "<group>"; };
-		8350716C7C8FC86C470260DE8AD31945 /* SDWebImageError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageError.m; path = SDWebImage/Core/SDWebImageError.m; sourceTree = "<group>"; };
+		83050B19167EC500E57F42C99E55C8D4 /* SDImageHEICCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoder.h; path = SDWebImage/Core/SDImageHEICCoder.h; sourceTree = "<group>"; };
+		8489E046880854D19432F1AD5BF61F91 /* SDAsyncBlockOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAsyncBlockOperation.m; path = SDWebImage/Private/SDAsyncBlockOperation.m; sourceTree = "<group>"; };
+		86868A8E8C119870065510F6F54AAF08 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
 		8842CCFF78283D821D218642F060D2F3 /* Pods-X-Team_Test_MoviesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-X-Team_Test_MoviesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8901AFDB2E496046943C2CF3E1A4F244 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
-		8D196795A37143550A62FFDE583AA805 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/Core/NSData+ImageContentType.m"; sourceTree = "<group>"; };
-		908D8B36FC79C13D219B108567A48CFF /* NSBezierPath+RoundedCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+RoundedCorners.h"; path = "SDWebImage/Private/NSBezierPath+RoundedCorners.h"; sourceTree = "<group>"; };
-		90F898160B0743EF6124BC3B177FFF2F /* SDWebImageDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDefine.h; path = SDWebImage/Core/SDWebImageDefine.h; sourceTree = "<group>"; };
-		927F5A2F4E2720F055C70F5210BA2A78 /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/Core/SDImageCachesManager.m; sourceTree = "<group>"; };
+		88C3B1226FF72B4E6A3CEF7DFFC1FE95 /* SDImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCodersManager.h; path = SDWebImage/Core/SDImageCodersManager.h; sourceTree = "<group>"; };
+		8DDE6604BD619723193934EFD68AD846 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/Core/SDWebImageOperation.h; sourceTree = "<group>"; };
+		8EF8642AA65BC9CFC3740333C758F7C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9147A87050EDB6C6CA7D8DDE5EB608DF /* SDAsyncBlockOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAsyncBlockOperation.h; path = SDWebImage/Private/SDAsyncBlockOperation.h; sourceTree = "<group>"; };
 		92AC349DE8D44B0CBFEA385FEACF3CEE /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		9383E92566286F1BD0DA44B8EF381377 /* NSBezierPath+RoundedCorners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+RoundedCorners.m"; path = "SDWebImage/Private/NSBezierPath+RoundedCorners.m"; sourceTree = "<group>"; };
+		93D0CA4618E17A98A3808DB5F6FA1A06 /* SDImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGIFCoder.m; path = SDWebImage/Core/SDImageGIFCoder.m; sourceTree = "<group>"; };
 		964A9F5ECBB3D3782B2BAE195D44745A /* Pods-X-Team_Test_MoviesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-X-Team_Test_MoviesUITests-frameworks.sh"; sourceTree = "<group>"; };
-		973BC1CEE49FD1832A7F4366D2E7810D /* SDImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCodersManager.m; path = SDWebImage/Core/SDImageCodersManager.m; sourceTree = "<group>"; };
-		9761FBAD86E864D4E76D37C6AB4D7373 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
-		98FD0681EFDEBBE52C9C8435848E928F /* SDAsyncBlockOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAsyncBlockOperation.m; path = SDWebImage/Private/SDAsyncBlockOperation.m; sourceTree = "<group>"; };
-		99FB41B432A23C2902A0F74BE7B9181C /* UIImage+Transform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Transform.m"; path = "SDWebImage/Core/UIImage+Transform.m"; sourceTree = "<group>"; };
-		9A108B72DC02BEF7AC37B3ED26C5BDF6 /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
+		9842FCB249156DE667954E2AA2363B70 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/Core/NSButton+WebCache.m"; sourceTree = "<group>"; };
+		991238E9C4D6D0ED98F015B493EF12BC /* SDImageIOAnimatedCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoderInternal.h; path = SDWebImage/Private/SDImageIOAnimatedCoderInternal.h; sourceTree = "<group>"; };
+		9AD593D3A836E342BC8B12B668F08120 /* SDImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCodersManager.m; path = SDWebImage/Core/SDImageCodersManager.m; sourceTree = "<group>"; };
 		9B9367E77E832C3EEAE18B23DC999234 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		9C18B15CF774ACC3EF79A27FEC12D61B /* SDImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOCoder.m; path = SDWebImage/Core/SDImageIOCoder.m; sourceTree = "<group>"; };
+		9E542E39EF6CEB603E5549FFB293F602 /* SDMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDMemoryCache.m; path = SDWebImage/Core/SDMemoryCache.m; sourceTree = "<group>"; };
 		9F0B55FAB315D78DAA6CDC9BA4B65E8A /* Pods-X-Team_Test_MoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-X-Team_Test_MoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1ABB0FD7170D25672F515DA0C478757 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/Core/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		A28D1E30A9EF3853EDA4A243B9C261FA /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		A2DCC93E5A9839E13AB7303C56EC5652 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/Core/SDImageCache.m; sourceTree = "<group>"; };
+		A47B822DD8F1209C9B16DE5F50C30718 /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/Core/SDImageFrame.h; sourceTree = "<group>"; };
 		A49C5C37C4DA8B1D3BAE55982BA66F80 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		A4C2A572F46B7FCC555AB506457301AA /* Pods_X_Team_Test_MoviesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_X_Team_Test_MoviesTests.framework; path = "Pods-X-Team_Test_MoviesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A54798E89A1BA8F97923D208B653B376 /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
-		A851F0CDA1FB673AD2DB43B2CCDE2E5E /* SDWebImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDefine.m; path = SDWebImage/Core/SDWebImageDefine.m; sourceTree = "<group>"; };
-		A8E8281D2ADD901CCE2454539A71273F /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/Core/SDWebImageManager.m; sourceTree = "<group>"; };
-		AAC5BDC9EB498DD28D79EE373092FF91 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
-		AE078FE7DC342905521B453F3E32F1BD /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/Core/SDImageCacheConfig.h; sourceTree = "<group>"; };
-		AE5C299C1C3C34CB11927240E05DB46A /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/Core/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
-		AEDBE86F12FD5A13637C3D1E04D53E7F /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/Core/UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		AF2C4EAA5A9F69B87E033651D92B5A1A /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/Core/SDImageCache.h; sourceTree = "<group>"; };
-		AF50C9A07AA308C8CF3A9DFBADA1B216 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
-		B09AF9D5917942B60580B34FFA19D30E /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
-		B0AB6471F798FAB620F236BB3A505873 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/Core/SDWebImageTransition.m; sourceTree = "<group>"; };
-		B0EE4E8158CA63352E0DF36750F0BA2A /* SDImageHEICCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoder.h; path = SDWebImage/Core/SDImageHEICCoder.h; sourceTree = "<group>"; };
-		B0F81D41337B242C1585A42E64695120 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/Core/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		A54821C0F03E76F2A26DB98532DF7EBD /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/Core/SDDiskCache.h; sourceTree = "<group>"; };
+		A76124561B7B44A6A71559991384CA33 /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
+		ADD752C9A990C9BDC18EF76D7AD76FCD /* NSImage+Compatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Compatibility.m"; path = "SDWebImage/Core/NSImage+Compatibility.m"; sourceTree = "<group>"; };
+		AE45722DF0DB0EB6B608D9BEB961CECB /* SDMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDMemoryCache.h; path = SDWebImage/Core/SDMemoryCache.h; sourceTree = "<group>"; };
+		AEA68DE18D9D6C36933DE3E2FA6C3475 /* SDImageHEICCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageHEICCoder.m; path = SDWebImage/Core/SDImageHEICCoder.m; sourceTree = "<group>"; };
+		B0489B8D31B5C3F2D6745C128AF7E134 /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
 		B12EC4B24B88D7196C77063B1BE1E049 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		B136F0419D352A6C95A904FAEABB61B2 /* SDImageGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGraphics.m; path = SDWebImage/Core/SDImageGraphics.m; sourceTree = "<group>"; };
-		B1529944485FD3E6ADE0CF6174EB6B83 /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
+		B20491425805664690F6CC3EC5BA747B /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/Core/SDAnimatedImageRep.m; sourceTree = "<group>"; };
 		B346D06D281D4D3C396F9BBE3DBF0FFE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		B3B4F20496122C65F6F32ABD36460870 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/Core/SDWebImageManager.m; sourceTree = "<group>"; };
 		B3BF39B5272772A69494580971EA81ED /* Pods-X-Team_Test_MoviesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-X-Team_Test_MoviesTests.modulemap"; sourceTree = "<group>"; };
-		B7E4FA0BFB17C946D8729EEA76A419A4 /* SDWebImageDownloaderConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderConfig.h; path = SDWebImage/Core/SDWebImageDownloaderConfig.h; sourceTree = "<group>"; };
-		B806DD29FA84AAB239E65E7A2C0059B9 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/Core/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
-		BA7F7A084BD08BFB06D0FC4A301B7289 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/Core/SDImageCache.m; sourceTree = "<group>"; };
-		BB04432AFEDD9EF86AD3FB9C647B7A58 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/Core/UIView+WebCache.h"; sourceTree = "<group>"; };
-		BD0B11BB0F136DAF22FAE299C5BC6B7B /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/Core/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		B4A1F0EC928EE416D3A1F7CC80FEE137 /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/Core/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
+		B9181FC8F6E8EA2EB541AB8FEE6F451D /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/Core/UIImage+GIF.m"; sourceTree = "<group>"; };
+		BBAA67D8CDD477FCD106AC87FAED77F9 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		BE13E7DAEA1CBC9608600DB4B1744CA4 /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
 		BF07B3B7264A4ED5DFB3DBE855105952 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		C1015AB4F40FE062C870733241D93873 /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
-		C21033BF59BF94C88F784A39424626B5 /* NSImage+Compatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Compatibility.m"; path = "SDWebImage/Core/NSImage+Compatibility.m"; sourceTree = "<group>"; };
-		C2963244311EDD75C9FF8E7D4FDABCBB /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
-		C2B7827D2CC6BDA40E74E991CCF060F0 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/Core/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
-		C627A52B008CCBBCDB80969B9E63284F /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "SDWebImage/Private/UIColor+HexString.h"; sourceTree = "<group>"; };
+		C0F4FAAFFA6BDDDAAE509ACAF561ED69 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		C1875748C8B34B8E4C58BF6EDB6CD599 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/Core/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		C59AC58001F82D8303D2BCD56C1DB892 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		C6A39936DAE9B78C932CC48C35A178EB /* SDImageTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageTransformer.h; path = SDWebImage/Core/SDImageTransformer.h; sourceTree = "<group>"; };
+		C6E9A6D9911A9FA1201D8B58838C40C8 /* SDWebImageError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageError.m; path = SDWebImage/Core/SDWebImageError.m; sourceTree = "<group>"; };
+		C815D2591B48DC633D3B2761EBCFDC4A /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/Core/SDWebImageTransition.h; sourceTree = "<group>"; };
 		C8B1B36FE58EA13DDAFBDA0FD999F85E /* Pods-X-Team_Test_MoviesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-X-Team_Test_MoviesTests-frameworks.sh"; sourceTree = "<group>"; };
-		CA18628040D458718044F0D3A44501BB /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/Core/UIView+WebCache.m"; sourceTree = "<group>"; };
-		CAFF290FF9E4AF33173CC1A1B9319693 /* SDAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDAnimatedImageView+WebCache.m"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
-		CD6E4A2029913C91FCB137C5118911A7 /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
-		D024D71047E4D7584A02941753F0C30F /* SDWebImageCacheSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheSerializer.m; path = SDWebImage/Core/SDWebImageCacheSerializer.m; sourceTree = "<group>"; };
-		D08EB54AA149D2D27B7B2F9859F3BDE1 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		C8F86994277FC2208DCB8BC2F2D530D1 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/Core/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		CAEF8F4943178DFFC1910F0793412D20 /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
+		CD1B4905DC8A4909A1787009F855651B /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
+		CF265229408F60D6E0AA3E4DC4B8ECD9 /* SDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDeviceHelper.h; path = SDWebImage/Private/SDDeviceHelper.h; sourceTree = "<group>"; };
+		CF87DDC2DEECEF50ACCB7591356A24F9 /* SDInternalMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDInternalMacros.h; path = SDWebImage/Private/SDInternalMacros.h; sourceTree = "<group>"; };
 		D2D9883700A0DF189CD3C9F2C3B88B49 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3171148AB475C1A7DCAA3017C63A7D7 /* Pods-X-Team_Test_MoviesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-X-Team_Test_MoviesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D36B566D2AB894BE45561438D0BD0B3D /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
-		D39528A69C8C8C98AE11ACAB4872161F /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
-		D46E05C3273CF51490C5C3DD7E4E2172 /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/Core/SDImageLoadersManager.h; sourceTree = "<group>"; };
+		D459EA582F2B175A023DEB25215B8978 /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/Core/NSImage+Compatibility.h"; sourceTree = "<group>"; };
+		D4CBB23FFA75944434A43F7A7C710D9D /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		D822903B7C6D714BF23D60D908205D74 /* Pods-X-Team_Test_MoviesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-X-Team_Test_MoviesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D913BB050550717EC69DCF1FF39852CC /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
 		D987428ABC108097C3F4776131D3F814 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		DB041B3861AC978847EEDF67641FE291 /* SDImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoder.m; path = SDWebImage/Core/SDImageCoder.m; sourceTree = "<group>"; };
-		DD137D6B7E43FC675D65119E782A264C /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
-		DE1A22B04C4310C3E964CAFB3422D899 /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
-		DE1DF4A3FC0B19DC8F7AF117B2125E40 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/Core/NSButton+WebCache.h"; sourceTree = "<group>"; };
-		DF8CF1E34FBC9C8EE9CE93A4342172A4 /* SDImageHEICCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageHEICCoder.m; path = SDWebImage/Core/SDImageHEICCoder.m; sourceTree = "<group>"; };
+		D9EBB1EAB28A796177D594CF72C3F8FD /* SDWebImageDownloaderResponseModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderResponseModifier.h; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.h; sourceTree = "<group>"; };
+		DAA1300C7CB5915BBDCC96B58B65D3EF /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "SDWebImage/Private/UIColor+HexString.h"; sourceTree = "<group>"; };
+		DAD713FE59897EBF26907774AA246D51 /* SDWebImageDownloaderConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderConfig.h; path = SDWebImage/Core/SDWebImageDownloaderConfig.h; sourceTree = "<group>"; };
+		DB3BAE116AD5885FFFB860EAE4BCB613 /* SDWebImageDownloaderRequestModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderRequestModifier.h; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.h; sourceTree = "<group>"; };
+		DC09DB91138215BB41DC5B902754ECE7 /* SDWebImageDownloaderDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderDecryptor.m; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.m; sourceTree = "<group>"; };
+		DE4EA5AE2DC8D13A27A96BBE7EA670BF /* SDWebImageOptionsProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOptionsProcessor.m; path = SDWebImage/Core/SDWebImageOptionsProcessor.m; sourceTree = "<group>"; };
+		E1D1916D5FE292F88AEC245F857628FE /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/Core/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		E1E854D6BEA7B2DA7A9A60C3D646CE15 /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
 		E26C7F20454AD37FADFA67C8894C92ED /* Pods-X-Team_Test_MoviesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-X-Team_Test_MoviesTests-resources.sh"; sourceTree = "<group>"; };
-		E2DCAED347EF3AD9A7E990991C3BD99F /* SDImageIOAnimatedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoder.h; path = SDWebImage/Core/SDImageIOAnimatedCoder.h; sourceTree = "<group>"; };
+		E35D8DDE749E1CB9C70EE0D96CCB88F0 /* SDImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoderHelper.h; path = SDWebImage/Core/SDImageCoderHelper.h; sourceTree = "<group>"; };
+		E3783402761E75E672413FB50775CF5A /* SDWebImageDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDefine.h; path = SDWebImage/Core/SDWebImageDefine.h; sourceTree = "<group>"; };
 		E515A37C777AA0C36AF56E94F31E3960 /* Pods-X-Team_Test_MoviesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-X-Team_Test_MoviesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5A11433647D57B9A348B7331AC0CC19 /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
-		E6263C11B1C92D16F934A8834AB3ABBB /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/Core/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		EC11F767BF2A24FFBBB3C1B6655A8493 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/Core/SDWebImageDownloader.m; sourceTree = "<group>"; };
-		EC4E0EC92D32EBE7414D2D18D44A5C2E /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/Core/SDWebImageManager.h; sourceTree = "<group>"; };
+		E51D82FC22ED285E55A2A9671C9519BF /* SDAnimatedImagePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImagePlayer.m; path = SDWebImage/Core/SDAnimatedImagePlayer.m; sourceTree = "<group>"; };
+		E9F12DA9992A0F26DC424B450C3F6E49 /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
+		EB8C6A4CD775775CDF7BCE80AC0B89C2 /* SDImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoderHelper.m; path = SDWebImage/Core/SDImageCoderHelper.m; sourceTree = "<group>"; };
+		EBF90C4E6B7AA8E30F7A2F057999A80E /* SDImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoder.m; path = SDWebImage/Core/SDImageCoder.m; sourceTree = "<group>"; };
+		EC7014773C856E6EBFAE630C5CA58D02 /* SDWebImageDownloaderDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderDecryptor.h; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.h; sourceTree = "<group>"; };
 		ECC5546238B36A4542DB9E45CA1E9B20 /* Pods-X-Team_Test_Movies-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-X-Team_Test_Movies-umbrella.h"; sourceTree = "<group>"; };
 		ED24FAE82F052A17C6E82C78D92CC721 /* Pods-X-Team_Test_MoviesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-X-Team_Test_MoviesTests-dummy.m"; sourceTree = "<group>"; };
-		EDD36CDB2A0450BC641DA62AEED500E1 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		F088D1A1E5946E324D388328DFE6D606 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		F18EF4C7B9B2113665F8B20410EF627C /* Pods-X-Team_Test_MoviesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-X-Team_Test_MoviesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F24F34F7BA26FAFC7878D31F015617FE /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "SDWebImage/Private/UIColor+HexString.m"; sourceTree = "<group>"; };
+		F1FC32E23E5183E73BB71CEF7C905287 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		F332DED5F26BC8CBF582648D1E0DB747 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3448DC54873643A2A4E5CF98D7692B3 /* SDWebImageIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageIndicator.m; path = SDWebImage/Core/SDWebImageIndicator.m; sourceTree = "<group>"; };
+		F376BCA2577ECB41D5AB42C8FA7D80C4 /* SDWebImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDefine.m; path = SDWebImage/Core/SDWebImageDefine.m; sourceTree = "<group>"; };
 		F3CA1B3D108D63B1B5B3D3CA18CE853B /* Pods-X-Team_Test_Movies-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-X-Team_Test_Movies-resources.sh"; sourceTree = "<group>"; };
+		F3E0F368BD52FEA92995C7AD0CA4ED27 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/Core/UIImage+GIF.h"; sourceTree = "<group>"; };
 		F74626FEFA840C010CAFF7413FAD9FF7 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		F7BE162D30ABE6485304F0C0C8765B5E /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/Core/SDImageCacheDefine.m; sourceTree = "<group>"; };
-		F8FB79BF5D463749E4072B9B7D7984D7 /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
-		FA2F7572B1220D853BE25F2FBD37CF28 /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
+		F80D1A474009BBCDC1FA254001471A7E /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/Core/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		FA7DABAC5BB584CD8FABC5122B7E6C71 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/Core/SDWebImageCompat.h; sourceTree = "<group>"; };
 		FB36860F9FDD8929C7684866C25EEB22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB75EEE3682483BBBF38414A27D7E7F /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/Core/UIImage+Transform.h"; sourceTree = "<group>"; };
 		FD63DC6A245EF3812444292FCEF7ED92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD73FAD1330FAADDDD6612872EF9F49F /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/Core/SDWebImageCompat.h; sourceTree = "<group>"; };
 		FEC52BD6B41DD0FA36B859B1D95527FF /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		FFA7E75D7267BC33EF4F007AD046C4F7 /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/Core/SDImageLoadersManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,6 +476,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		25DC1AD914783E2C25E02803D9A5DB74 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				4F033CF66FE0397EEB4847DE714B53DF /* Core */,
+				6B8DBB9A682224619D231A22C69D8D92 /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
 		32F73175064EA5528C7BC15E162801C5 /* Pods-X-Team_Test_MoviesUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -478,7 +508,7 @@
 			isa = PBXGroup;
 			children = (
 				CE0EFFB1FC1D6271C2B53AA28C5C9074 /* Alamofire */,
-				AA22A91ACE0664CF89103DD17E53BF1B /* SDWebImage */,
+				25DC1AD914783E2C25E02803D9A5DB74 /* SDWebImage */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -493,6 +523,158 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		4F033CF66FE0397EEB4847DE714B53DF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1114A0646E5049F658B22B21B6CE5224 /* NSBezierPath+RoundedCorners.h */,
+				9383E92566286F1BD0DA44B8EF381377 /* NSBezierPath+RoundedCorners.m */,
+				5F1CB27888B1090AB2A591E6AF55429A /* NSButton+WebCache.h */,
+				9842FCB249156DE667954E2AA2363B70 /* NSButton+WebCache.m */,
+				F80D1A474009BBCDC1FA254001471A7E /* NSData+ImageContentType.h */,
+				34627B7E450EA56B9ED28E153FEE1B84 /* NSData+ImageContentType.m */,
+				D459EA582F2B175A023DEB25215B8978 /* NSImage+Compatibility.h */,
+				ADD752C9A990C9BDC18EF76D7AD76FCD /* NSImage+Compatibility.m */,
+				CD1B4905DC8A4909A1787009F855651B /* SDAnimatedImage.h */,
+				1B7FED038CDC8749FF04CB5D82A68DA6 /* SDAnimatedImage.m */,
+				D913BB050550717EC69DCF1FF39852CC /* SDAnimatedImagePlayer.h */,
+				E51D82FC22ED285E55A2A9671C9519BF /* SDAnimatedImagePlayer.m */,
+				301AED5184367AD81FAB10C3DBF1A86F /* SDAnimatedImageRep.h */,
+				B20491425805664690F6CC3EC5BA747B /* SDAnimatedImageRep.m */,
+				B0489B8D31B5C3F2D6745C128AF7E134 /* SDAnimatedImageView.h */,
+				276E76ECCE2C35CBD61497DD783E4F92 /* SDAnimatedImageView.m */,
+				4C2E2C515C1A1BA82513CF294BFA2241 /* SDAnimatedImageView+WebCache.h */,
+				4517B33B0F472CC440A40E2201A6D311 /* SDAnimatedImageView+WebCache.m */,
+				9147A87050EDB6C6CA7D8DDE5EB608DF /* SDAsyncBlockOperation.h */,
+				8489E046880854D19432F1AD5BF61F91 /* SDAsyncBlockOperation.m */,
+				CF265229408F60D6E0AA3E4DC4B8ECD9 /* SDDeviceHelper.h */,
+				16D35693A4C864CF30114CC70E0DA1DB /* SDDeviceHelper.m */,
+				A54821C0F03E76F2A26DB98532DF7EBD /* SDDiskCache.h */,
+				412776702F637F57BCA9604C8E64AC65 /* SDDiskCache.m */,
+				5FC6A49AC777700ACAC326DD694FC912 /* SDDisplayLink.h */,
+				27F3687C2E936C6D6D066C13D4B75D1B /* SDDisplayLink.m */,
+				02A65FE560B0A81D028CAC635F5214AD /* SDImageAPNGCoder.h */,
+				2C418781FB90171F35F1EF3EEB07862F /* SDImageAPNGCoder.m */,
+				6F4D16FAF6CF6DB39BABCB0D465DCA75 /* SDImageAssetManager.h */,
+				0B022D204EDF38B1B4A780852CE7C638 /* SDImageAssetManager.m */,
+				2805037105783F54BE722B87ED073E70 /* SDImageCache.h */,
+				A2DCC93E5A9839E13AB7303C56EC5652 /* SDImageCache.m */,
+				49977C78A163F7393249A637A8B0680A /* SDImageCacheConfig.h */,
+				41846E294B5802073703C0B55219AF30 /* SDImageCacheConfig.m */,
+				04FD3318D0240F39987748AB32554B00 /* SDImageCacheDefine.h */,
+				4E4DA487AE767B2E0EC5B06BAEC62338 /* SDImageCacheDefine.m */,
+				CAEF8F4943178DFFC1910F0793412D20 /* SDImageCachesManager.h */,
+				37CFC76B3D4A12903FB2ED0B5D7246DB /* SDImageCachesManager.m */,
+				697C289F28293C198553DEC959B6914C /* SDImageCachesManagerOperation.h */,
+				BE13E7DAEA1CBC9608600DB4B1744CA4 /* SDImageCachesManagerOperation.m */,
+				316F0209D527C2C5DFE30DE7AEE44C83 /* SDImageCoder.h */,
+				EBF90C4E6B7AA8E30F7A2F057999A80E /* SDImageCoder.m */,
+				E35D8DDE749E1CB9C70EE0D96CCB88F0 /* SDImageCoderHelper.h */,
+				EB8C6A4CD775775CDF7BCE80AC0B89C2 /* SDImageCoderHelper.m */,
+				88C3B1226FF72B4E6A3CEF7DFFC1FE95 /* SDImageCodersManager.h */,
+				9AD593D3A836E342BC8B12B668F08120 /* SDImageCodersManager.m */,
+				A47B822DD8F1209C9B16DE5F50C30718 /* SDImageFrame.h */,
+				0FBB652107AAFFE12ABF42E25BB11A19 /* SDImageFrame.m */,
+				E1E854D6BEA7B2DA7A9A60C3D646CE15 /* SDImageGIFCoder.h */,
+				93D0CA4618E17A98A3808DB5F6FA1A06 /* SDImageGIFCoder.m */,
+				86868A8E8C119870065510F6F54AAF08 /* SDImageGraphics.h */,
+				2292FD1FED6E59E09084BCBF46AFD758 /* SDImageGraphics.m */,
+				83050B19167EC500E57F42C99E55C8D4 /* SDImageHEICCoder.h */,
+				AEA68DE18D9D6C36933DE3E2FA6C3475 /* SDImageHEICCoder.m */,
+				06971EEF0F229D5C97B2953D1DE37FBB /* SDImageHEICCoderInternal.h */,
+				455E8147DBD9C688AE0AC871AC0AFC88 /* SDImageIOAnimatedCoder.h */,
+				6D5647B03D6A5F4ACD7B0C87593EA204 /* SDImageIOAnimatedCoder.m */,
+				991238E9C4D6D0ED98F015B493EF12BC /* SDImageIOAnimatedCoderInternal.h */,
+				61B86DB232F31A5210BC9FAC1E008B54 /* SDImageIOCoder.h */,
+				9C18B15CF774ACC3EF79A27FEC12D61B /* SDImageIOCoder.m */,
+				698FA482EC9D3AD81AC7E0576A4B49FC /* SDImageLoader.h */,
+				2138C81C5E723ADEE72A7ED6C38472CD /* SDImageLoader.m */,
+				FFA7E75D7267BC33EF4F007AD046C4F7 /* SDImageLoadersManager.h */,
+				6C2DBB93FB083E314B097CEA5909490C /* SDImageLoadersManager.m */,
+				C6A39936DAE9B78C932CC48C35A178EB /* SDImageTransformer.h */,
+				A76124561B7B44A6A71559991384CA33 /* SDImageTransformer.m */,
+				CF87DDC2DEECEF50ACCB7591356A24F9 /* SDInternalMacros.h */,
+				630FDB8B49D19C5BDE0B3F672072BA88 /* SDInternalMacros.m */,
+				AE45722DF0DB0EB6B608D9BEB961CECB /* SDMemoryCache.h */,
+				9E542E39EF6CEB603E5549FFB293F602 /* SDMemoryCache.m */,
+				7BB7FA45651057EE2468B19EF0175217 /* SDmetamacros.h */,
+				33B238636CA921274C7036438C4C5683 /* SDWeakProxy.h */,
+				6C01AC0A399868DF4C06EA96F12ED6F7 /* SDWeakProxy.m */,
+				324AE6DCA34EF32B9C3F88A62899572F /* SDWebImage.h */,
+				3360BEF52DAB07441BA1C5D243D0DD9A /* SDWebImageCacheKeyFilter.h */,
+				72CDF1FC32B24CF9B305B0F3B42E218D /* SDWebImageCacheKeyFilter.m */,
+				B4A1F0EC928EE416D3A1F7CC80FEE137 /* SDWebImageCacheSerializer.h */,
+				22487D096DD6711D897E285634DFD4F1 /* SDWebImageCacheSerializer.m */,
+				FA7DABAC5BB584CD8FABC5122B7E6C71 /* SDWebImageCompat.h */,
+				170C691792F736D6E8681B1E51A0111F /* SDWebImageCompat.m */,
+				E3783402761E75E672413FB50775CF5A /* SDWebImageDefine.h */,
+				F376BCA2577ECB41D5AB42C8FA7D80C4 /* SDWebImageDefine.m */,
+				E1D1916D5FE292F88AEC245F857628FE /* SDWebImageDownloader.h */,
+				C8F86994277FC2208DCB8BC2F2D530D1 /* SDWebImageDownloader.m */,
+				DAD713FE59897EBF26907774AA246D51 /* SDWebImageDownloaderConfig.h */,
+				7131B0070DE0F1E306D17BB07B8302BE /* SDWebImageDownloaderConfig.m */,
+				EC7014773C856E6EBFAE630C5CA58D02 /* SDWebImageDownloaderDecryptor.h */,
+				DC09DB91138215BB41DC5B902754ECE7 /* SDWebImageDownloaderDecryptor.m */,
+				7F1B10F6A5DA51AF1CFF654F2B48BC98 /* SDWebImageDownloaderOperation.h */,
+				C1875748C8B34B8E4C58BF6EDB6CD599 /* SDWebImageDownloaderOperation.m */,
+				DB3BAE116AD5885FFFB860EAE4BCB613 /* SDWebImageDownloaderRequestModifier.h */,
+				6BF0C94D2272D5BBAB1223268EB481ED /* SDWebImageDownloaderRequestModifier.m */,
+				D9EBB1EAB28A796177D594CF72C3F8FD /* SDWebImageDownloaderResponseModifier.h */,
+				468BE77BE92A092B149961003BE9E711 /* SDWebImageDownloaderResponseModifier.m */,
+				238D87F0F08A20E8DC72FFF51C4E25C4 /* SDWebImageError.h */,
+				C6E9A6D9911A9FA1201D8B58838C40C8 /* SDWebImageError.m */,
+				239E5B9CDE4D6DDA81692B470D7AF380 /* SDWebImageIndicator.h */,
+				F3448DC54873643A2A4E5CF98D7692B3 /* SDWebImageIndicator.m */,
+				2EFA188741BA61F2082714E7EDB2ED9A /* SDWebImageManager.h */,
+				B3B4F20496122C65F6F32ABD36460870 /* SDWebImageManager.m */,
+				8DDE6604BD619723193934EFD68AD846 /* SDWebImageOperation.h */,
+				E9F12DA9992A0F26DC424B450C3F6E49 /* SDWebImageOptionsProcessor.h */,
+				DE4EA5AE2DC8D13A27A96BBE7EA670BF /* SDWebImageOptionsProcessor.m */,
+				A1ABB0FD7170D25672F515DA0C478757 /* SDWebImagePrefetcher.h */,
+				689E561406BFAFD8DE003C07A60A514E /* SDWebImagePrefetcher.m */,
+				C815D2591B48DC633D3B2761EBCFDC4A /* SDWebImageTransition.h */,
+				79CF5CC17CE708F9F835C2FF0C68781C /* SDWebImageTransition.m */,
+				2B614FEF27062D6F5245EDCCB8845A61 /* UIButton+WebCache.h */,
+				21BE4BD53EA54CDE40718BC0260E7B3B /* UIButton+WebCache.m */,
+				DAA1300C7CB5915BBDCC96B58B65D3EF /* UIColor+HexString.h */,
+				015910082C2AB61FC18B4A82BA99EC9B /* UIColor+HexString.m */,
+				171138BA5B900E7B6FE5987842F06C1F /* UIImage+ForceDecode.h */,
+				036C284E3E9809F71BB79A8E8FFD25AF /* UIImage+ForceDecode.m */,
+				F3E0F368BD52FEA92995C7AD0CA4ED27 /* UIImage+GIF.h */,
+				B9181FC8F6E8EA2EB541AB8FEE6F451D /* UIImage+GIF.m */,
+				55A0B24008218783DAABD001016F2FAE /* UIImage+MemoryCacheCost.h */,
+				517E43B7600B6B37EB23FF0DCFA2A50D /* UIImage+MemoryCacheCost.m */,
+				11A051B3FDBB357A412DBA9DF1FEDA5F /* UIImage+Metadata.h */,
+				4D338D00B87627646C44D91AEBCFC8A4 /* UIImage+Metadata.m */,
+				6274A2ECF59270AAB11E7F5FD549258C /* UIImage+MultiFormat.h */,
+				44B9E13891952BAED3A2844602C3E4C5 /* UIImage+MultiFormat.m */,
+				FCB75EEE3682483BBBF38414A27D7E7F /* UIImage+Transform.h */,
+				1D58112114709B3A801105F232C4FC83 /* UIImage+Transform.m */,
+				F1FC32E23E5183E73BB71CEF7C905287 /* UIImageView+HighlightedWebCache.h */,
+				D4CBB23FFA75944434A43F7A7C710D9D /* UIImageView+HighlightedWebCache.m */,
+				45B38297A70D0F8F8F22FEA592DD6472 /* UIImageView+WebCache.h */,
+				53CB9A85FCFD637BA7CD7D9511EBBF93 /* UIImageView+WebCache.m */,
+				31C9F38FDD3D494A9487812E94C31204 /* UIView+WebCache.h */,
+				4DEE6739067407661339DB4D23EE60A9 /* UIView+WebCache.m */,
+				47AC0910DB724C1BC938F8BCFD2689E8 /* UIView+WebCacheOperation.h */,
+				5F31E039A611D55BE143447C23B4A979 /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6B8DBB9A682224619D231A22C69D8D92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8642AA65BC9CFC3740333C758F7C6 /* Info.plist */,
+				62D0A6EE174A3773753D1477A9D62426 /* SDWebImage.modulemap */,
+				C0F4FAAFFA6BDDDAAE509ACAF561ED69 /* SDWebImage.xcconfig */,
+				C59AC58001F82D8303D2BCD56C1DB892 /* SDWebImage-dummy.m */,
+				495910B8CD83DAA3826C47D487975E96 /* SDWebImage-prefix.pch */,
+				BBAA67D8CDD477FCD106AC87FAED77F9 /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
 		8523EEFFCB852257853195B0820B4890 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,158 +682,6 @@
 				B346D06D281D4D3C396F9BBE3DBF0FFE /* ImageIO.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		9841C1E6EECDD0D71DEE29225F0CB14F /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				908D8B36FC79C13D219B108567A48CFF /* NSBezierPath+RoundedCorners.h */,
-				2EB7767AC58450002AD35A27A62F7BBA /* NSBezierPath+RoundedCorners.m */,
-				DE1DF4A3FC0B19DC8F7AF117B2125E40 /* NSButton+WebCache.h */,
-				6F01744EEB4F56940307A15208787C84 /* NSButton+WebCache.m */,
-				BD0B11BB0F136DAF22FAE299C5BC6B7B /* NSData+ImageContentType.h */,
-				8D196795A37143550A62FFDE583AA805 /* NSData+ImageContentType.m */,
-				74B0E94E7785369E95B1A7CAF38A7222 /* NSImage+Compatibility.h */,
-				C21033BF59BF94C88F784A39424626B5 /* NSImage+Compatibility.m */,
-				B1529944485FD3E6ADE0CF6174EB6B83 /* SDAnimatedImage.h */,
-				65D6C4D99C6A6D45DC9E739CE0FF190B /* SDAnimatedImage.m */,
-				30A93107DB8AED181C8589087746B5A0 /* SDAnimatedImageRep.h */,
-				0058F3B6D81816F2A34FF9DCA60932BA /* SDAnimatedImageRep.m */,
-				E5A11433647D57B9A348B7331AC0CC19 /* SDAnimatedImageView.h */,
-				83097028DDA3867366FA6E2819403EA2 /* SDAnimatedImageView.m */,
-				09D05119D10B88A7E09D317F73E760FA /* SDAnimatedImageView+WebCache.h */,
-				CAFF290FF9E4AF33173CC1A1B9319693 /* SDAnimatedImageView+WebCache.m */,
-				0891490E423FCBC629D51911F8997391 /* SDAsyncBlockOperation.h */,
-				98FD0681EFDEBBE52C9C8435848E928F /* SDAsyncBlockOperation.m */,
-				1927E9710789DD4A05F738AF90F05C43 /* SDDiskCache.h */,
-				CD6E4A2029913C91FCB137C5118911A7 /* SDDiskCache.m */,
-				12671E4591F9BA4C0B3A5A74904B1288 /* SDImageAPNGCoder.h */,
-				4A27AAF464A90079B5DDE7CBF0BDD0EA /* SDImageAPNGCoder.m */,
-				7F129D5D81AF0557732B1905C59F894D /* SDImageAssetManager.h */,
-				D36B566D2AB894BE45561438D0BD0B3D /* SDImageAssetManager.m */,
-				AF2C4EAA5A9F69B87E033651D92B5A1A /* SDImageCache.h */,
-				BA7F7A084BD08BFB06D0FC4A301B7289 /* SDImageCache.m */,
-				AE078FE7DC342905521B453F3E32F1BD /* SDImageCacheConfig.h */,
-				47A21184A2B3E68C09B05A1D8288ACDC /* SDImageCacheConfig.m */,
-				6B8976EA7AAF2CC9437E3C09FBB1F0A8 /* SDImageCacheDefine.h */,
-				F7BE162D30ABE6485304F0C0C8765B5E /* SDImageCacheDefine.m */,
-				C1015AB4F40FE062C870733241D93873 /* SDImageCachesManager.h */,
-				927F5A2F4E2720F055C70F5210BA2A78 /* SDImageCachesManager.m */,
-				7809478CBD384724DC59146B1ABCF974 /* SDImageCachesManagerOperation.h */,
-				573E6959F77D968EB7FAD8B23AEEA461 /* SDImageCachesManagerOperation.m */,
-				343DCD0C5CED69FCFF1C75B5DDB65847 /* SDImageCoder.h */,
-				DB041B3861AC978847EEDF67641FE291 /* SDImageCoder.m */,
-				4AFEB8C35D26CB9AFDB89007D940DE4C /* SDImageCoderHelper.h */,
-				2821C14972A25A36DF83EE60B15F6AB3 /* SDImageCoderHelper.m */,
-				6F1A9869F2ADF4CD8B8666540C84C5D5 /* SDImageCodersManager.h */,
-				973BC1CEE49FD1832A7F4366D2E7810D /* SDImageCodersManager.m */,
-				481DBCDE00144F37DF4DEBF326B13EB9 /* SDImageFrame.h */,
-				59CCFFF4A211F50A909F16D4F28B390B /* SDImageFrame.m */,
-				A54798E89A1BA8F97923D208B653B376 /* SDImageGIFCoder.h */,
-				21E849DDF5D6AE0E937274EF99BBD789 /* SDImageGIFCoder.m */,
-				AAC5BDC9EB498DD28D79EE373092FF91 /* SDImageGraphics.h */,
-				B136F0419D352A6C95A904FAEABB61B2 /* SDImageGraphics.m */,
-				B0EE4E8158CA63352E0DF36750F0BA2A /* SDImageHEICCoder.h */,
-				DF8CF1E34FBC9C8EE9CE93A4342172A4 /* SDImageHEICCoder.m */,
-				50E777F4A27EDBFDADAB38A2E717CF1A /* SDImageHEICCoderInternal.h */,
-				E2DCAED347EF3AD9A7E990991C3BD99F /* SDImageIOAnimatedCoder.h */,
-				79AA94BBA459F9E5BFE3D9A478C9F916 /* SDImageIOAnimatedCoder.m */,
-				75AD11EA14B08212D5C8D4AA27E72066 /* SDImageIOAnimatedCoderInternal.h */,
-				5E04B4AA86B50F498D4746ACCB672569 /* SDImageIOCoder.h */,
-				2490D2108F80708459CCBE093E4C221F /* SDImageIOCoder.m */,
-				7761825907698D6FCA0DD1FC1A4917CA /* SDImageLoader.h */,
-				9A108B72DC02BEF7AC37B3ED26C5BDF6 /* SDImageLoader.m */,
-				D46E05C3273CF51490C5C3DD7E4E2172 /* SDImageLoadersManager.h */,
-				0717875F47DE4E9CD839C68FCBCCBE4D /* SDImageLoadersManager.m */,
-				46A55BE2D86B23C6E65244C9CE9E0CEE /* SDImageTransformer.h */,
-				B09AF9D5917942B60580B34FFA19D30E /* SDImageTransformer.m */,
-				68E8D799E1D73991F2BBFCE7A01362D3 /* SDInternalMacros.h */,
-				2BD60C531ACC0AB272204D5377E1DC0F /* SDInternalMacros.m */,
-				730075A5911F41A6B4228DA3951C5069 /* SDMemoryCache.h */,
-				20791C53AD3F1B0EAC93E3549D3ABAB8 /* SDMemoryCache.m */,
-				DE1A22B04C4310C3E964CAFB3422D899 /* SDmetamacros.h */,
-				1614426B3E788E56459AACD82F85F5DA /* SDWeakProxy.h */,
-				6761D7616079D80FEC2A14710DCB8306 /* SDWeakProxy.m */,
-				68406E87F56E912E0E26C32949077513 /* SDWebImage.h */,
-				65305B25D9DA239528AE0D794EA841B9 /* SDWebImageCacheKeyFilter.h */,
-				4ECC6A7724BF23D1B4534A7F5004A4BB /* SDWebImageCacheKeyFilter.m */,
-				495007D6AFE74FDF975F57B59DF28C6D /* SDWebImageCacheSerializer.h */,
-				D024D71047E4D7584A02941753F0C30F /* SDWebImageCacheSerializer.m */,
-				FD73FAD1330FAADDDD6612872EF9F49F /* SDWebImageCompat.h */,
-				0F14DAEC8CE3C78E1A981B3C4A53A38D /* SDWebImageCompat.m */,
-				90F898160B0743EF6124BC3B177FFF2F /* SDWebImageDefine.h */,
-				A851F0CDA1FB673AD2DB43B2CCDE2E5E /* SDWebImageDefine.m */,
-				729EBF37E65E6DC70D10671837D7E76A /* SDWebImageDownloader.h */,
-				EC11F767BF2A24FFBBB3C1B6655A8493 /* SDWebImageDownloader.m */,
-				B7E4FA0BFB17C946D8729EEA76A419A4 /* SDWebImageDownloaderConfig.h */,
-				11A934E6D0AC19FBE14B939394E9B717 /* SDWebImageDownloaderConfig.m */,
-				5C328C339B8F29AE6EE62FB9CDB9677D /* SDWebImageDownloaderOperation.h */,
-				4E638291C6FF43B2003472EA32B26167 /* SDWebImageDownloaderOperation.m */,
-				5D005575A3CCFDDEE512373FDC0C2AE0 /* SDWebImageDownloaderRequestModifier.h */,
-				59A1F25C529D83F9AE62B9803F953A13 /* SDWebImageDownloaderRequestModifier.m */,
-				57AE9E942C5A35AB99AD72E88A5A1C6F /* SDWebImageError.h */,
-				8350716C7C8FC86C470260DE8AD31945 /* SDWebImageError.m */,
-				DD137D6B7E43FC675D65119E782A264C /* SDWebImageIndicator.h */,
-				729A74307BB75C44F56D5D35EA331074 /* SDWebImageIndicator.m */,
-				EC4E0EC92D32EBE7414D2D18D44A5C2E /* SDWebImageManager.h */,
-				A8E8281D2ADD901CCE2454539A71273F /* SDWebImageManager.m */,
-				15B014869954B9B94610A3F8E6679D61 /* SDWebImageOperation.h */,
-				FA2F7572B1220D853BE25F2FBD37CF28 /* SDWebImageOptionsProcessor.h */,
-				3F5A9924D235D47753B46E4F6E708386 /* SDWebImageOptionsProcessor.m */,
-				06BBB7436EA2AE48A401F8FF588DC207 /* SDWebImagePrefetcher.h */,
-				C2B7827D2CC6BDA40E74E991CCF060F0 /* SDWebImagePrefetcher.m */,
-				706F1840CC1B87524BE82889E450B353 /* SDWebImageTransition.h */,
-				B0AB6471F798FAB620F236BB3A505873 /* SDWebImageTransition.m */,
-				B0F81D41337B242C1585A42E64695120 /* UIButton+WebCache.h */,
-				C2963244311EDD75C9FF8E7D4FDABCBB /* UIButton+WebCache.m */,
-				C627A52B008CCBBCDB80969B9E63284F /* UIColor+HexString.h */,
-				F24F34F7BA26FAFC7878D31F015617FE /* UIColor+HexString.m */,
-				33A39A1E35430560248FC973CD8059A4 /* UIImage+ForceDecode.h */,
-				AE5C299C1C3C34CB11927240E05DB46A /* UIImage+ForceDecode.m */,
-				0381F4A2B5DBC65A9B0E6B711DF173EF /* UIImage+GIF.h */,
-				7BFBA4ED705933007D065DB02E215AAA /* UIImage+GIF.m */,
-				F8FB79BF5D463749E4072B9B7D7984D7 /* UIImage+MemoryCacheCost.h */,
-				D39528A69C8C8C98AE11ACAB4872161F /* UIImage+MemoryCacheCost.m */,
-				1D9D24663EAEE5D07417118D4925D0D4 /* UIImage+Metadata.h */,
-				2F1430BBBF5A573D2B0FAEA95861CB95 /* UIImage+Metadata.m */,
-				B806DD29FA84AAB239E65E7A2C0059B9 /* UIImage+MultiFormat.h */,
-				8106C5F3E5B43A6C0FBAD4C73FFA0394 /* UIImage+MultiFormat.m */,
-				5A6BB34BDCB1411B37FB72AAFD824A2E /* UIImage+Transform.h */,
-				99FB41B432A23C2902A0F74BE7B9181C /* UIImage+Transform.m */,
-				2793281E0129258ABA3E5B730C94C96E /* UIImageView+HighlightedWebCache.h */,
-				EDD36CDB2A0450BC641DA62AEED500E1 /* UIImageView+HighlightedWebCache.m */,
-				AEDBE86F12FD5A13637C3D1E04D53E7F /* UIImageView+WebCache.h */,
-				41A2AE2A0FDE92858ECEF12112EE2B43 /* UIImageView+WebCache.m */,
-				BB04432AFEDD9EF86AD3FB9C647B7A58 /* UIView+WebCache.h */,
-				CA18628040D458718044F0D3A44501BB /* UIView+WebCache.m */,
-				9761FBAD86E864D4E76D37C6AB4D7373 /* UIView+WebCacheOperation.h */,
-				E6263C11B1C92D16F934A8834AB3ABBB /* UIView+WebCacheOperation.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		9FB0B2A4BA7DE8D5FBF8D13A8B74876F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				73F0B478E1AC0230F72C263BA852E15A /* Info.plist */,
-				D08EB54AA149D2D27B7B2F9859F3BDE1 /* SDWebImage.modulemap */,
-				561D37E70FDAD720AC3C0F73E52A13F0 /* SDWebImage.xcconfig */,
-				4174D55BE35FDBC0E52DE23E1F7160EB /* SDWebImage-dummy.m */,
-				AF50C9A07AA308C8CF3A9DFBADA1B216 /* SDWebImage-prefix.pch */,
-				8901AFDB2E496046943C2CF3E1A4F244 /* SDWebImage-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SDWebImage";
-			sourceTree = "<group>";
-		};
-		AA22A91ACE0664CF89103DD17E53BF1B /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				9841C1E6EECDD0D71DEE29225F0CB14F /* Core */,
-				9FB0B2A4BA7DE8D5FBF8D13A8B74876F /* Support Files */,
-			);
-			name = SDWebImage;
-			path = SDWebImage;
 			sourceTree = "<group>";
 		};
 		C16EB66A745429B73F7E4757A7F08953 /* Pods-X-Team_Test_Movies */ = {
@@ -754,82 +784,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		319A3A5C1AA20CBAFC820775E3702FD8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5592C8BFB163E4330294935E7ED652D /* NSBezierPath+RoundedCorners.h in Headers */,
-				315A3CF58EF5B64945972C6F4F601314 /* NSButton+WebCache.h in Headers */,
-				24D233A27CF6E14111486E4C7EFFABEB /* NSData+ImageContentType.h in Headers */,
-				258A9E1558BA04B73657EECD7406809C /* NSImage+Compatibility.h in Headers */,
-				4B997DA4D8E028AE595071F85060EFB8 /* SDAnimatedImage.h in Headers */,
-				D8E69F6AF913FD5339D88B3D45512813 /* SDAnimatedImageRep.h in Headers */,
-				CA130D2D0FCAA20F0543FBEB9741912F /* SDAnimatedImageView+WebCache.h in Headers */,
-				4A39CCA333472979500B4BC0042B0F50 /* SDAnimatedImageView.h in Headers */,
-				5CD909497A7ABA4258BE04DFD64B3F20 /* SDAsyncBlockOperation.h in Headers */,
-				27ECA1BCA7733405E0DBE41B09860D75 /* SDDiskCache.h in Headers */,
-				FCAC1F422A3E7BF722E4F127505E9A1C /* SDImageAPNGCoder.h in Headers */,
-				85344B621148961904554014A6CDB99B /* SDImageAssetManager.h in Headers */,
-				DBC888BDE7879652B62A12D7751DC5E2 /* SDImageCache.h in Headers */,
-				382224277709D16790639D08F34454F5 /* SDImageCacheConfig.h in Headers */,
-				6F220FBAC93364887AB0FB305E0923F3 /* SDImageCacheDefine.h in Headers */,
-				8BEDECE19BF2ECE42C43FA5AF31FFF0C /* SDImageCachesManager.h in Headers */,
-				64F6BE0549D9A188EE2F9C0EA57EA1A8 /* SDImageCachesManagerOperation.h in Headers */,
-				AF0561B316B192E14AB93A6275F3FDFA /* SDImageCoder.h in Headers */,
-				4E4669D0F7535910E30070AC0DE6A63C /* SDImageCoderHelper.h in Headers */,
-				68453A9837E23272368184398B150C60 /* SDImageCodersManager.h in Headers */,
-				F23C877CA5C291142B253531F9842B6C /* SDImageFrame.h in Headers */,
-				36D83A12281D9103C12EEAA63423BB75 /* SDImageGIFCoder.h in Headers */,
-				E29A5279FDA7E56199A58E63A84590CC /* SDImageGraphics.h in Headers */,
-				A314164A41789BA09EFC8904D4B0C95E /* SDImageHEICCoder.h in Headers */,
-				902DBE137D3F2C0D392E1EF1666D42DD /* SDImageHEICCoderInternal.h in Headers */,
-				B17DA71ACD813222BE9F513620167327 /* SDImageIOAnimatedCoder.h in Headers */,
-				77D25806D526992B7679D8F5B855D640 /* SDImageIOAnimatedCoderInternal.h in Headers */,
-				4F7A6E2AEF4D5CF12EE2EBC2658F4D24 /* SDImageIOCoder.h in Headers */,
-				EEA5ED1F2AE91DEE8643FF825B6E14D4 /* SDImageLoader.h in Headers */,
-				8CDF1967975191099110EBAA17038429 /* SDImageLoadersManager.h in Headers */,
-				CE385CB77F3FDC357AC131418145CE87 /* SDImageTransformer.h in Headers */,
-				E82614E6DE640FBBB248201EAEEF932F /* SDInternalMacros.h in Headers */,
-				0F0B52C9E56887804062D09D2F708CEE /* SDMemoryCache.h in Headers */,
-				B7EA832728D61479CB9AB19FBF401EDE /* SDmetamacros.h in Headers */,
-				4B4122D74EA548761F6B9E42EE69B159 /* SDWeakProxy.h in Headers */,
-				1A77467DD87A102C6C3C8F0777047F96 /* SDWebImage-umbrella.h in Headers */,
-				D5C6194C1B3619116A210C6688A81C10 /* SDWebImage.h in Headers */,
-				0890B8AF58357F2A6032A25AEE75FEDB /* SDWebImageCacheKeyFilter.h in Headers */,
-				10A3463631655461394F75FB27FAE2DF /* SDWebImageCacheSerializer.h in Headers */,
-				BD0B8AB32B5DFA5EC00D3442A6E1593D /* SDWebImageCompat.h in Headers */,
-				94CA1D541F0B962DCA278A92C4241610 /* SDWebImageDefine.h in Headers */,
-				8852D3789EEF101A9D63C4F6CC0FD0E7 /* SDWebImageDownloader.h in Headers */,
-				5FD7CDD23B026A0B0445BFAE629591FC /* SDWebImageDownloaderConfig.h in Headers */,
-				B74D3A2029A5E7619E7FD5F6C5363E70 /* SDWebImageDownloaderOperation.h in Headers */,
-				100EE33183C4FE0A9148A74A604D7D30 /* SDWebImageDownloaderRequestModifier.h in Headers */,
-				99AC78603F1CE85FA3C7361F0127D560 /* SDWebImageError.h in Headers */,
-				BF702728667D63F31FE6CF7EB398EFC7 /* SDWebImageIndicator.h in Headers */,
-				F70C83B2E65A171621522C27E594AA16 /* SDWebImageManager.h in Headers */,
-				8B84B1F4A5E0A2F8DF3E73484E23A734 /* SDWebImageOperation.h in Headers */,
-				2A47230D322904896874AB5AD503FA90 /* SDWebImageOptionsProcessor.h in Headers */,
-				C7A3AE10927D9F427394BA3A537DDACB /* SDWebImagePrefetcher.h in Headers */,
-				D1AEB3183F7D240CD1AA4D85A5BD9CAE /* SDWebImageTransition.h in Headers */,
-				03AA5CB3460A24B8A56BE975EE74C110 /* UIButton+WebCache.h in Headers */,
-				59AF69745F882528E86D8527DBBBA017 /* UIColor+HexString.h in Headers */,
-				7B7795E0508B89139A8B24E9F92AEAA4 /* UIImage+ForceDecode.h in Headers */,
-				42AA1D3511E7151584CEE3089673D491 /* UIImage+GIF.h in Headers */,
-				E5C4A4F565CB969B3A6D8957BDD32C2B /* UIImage+MemoryCacheCost.h in Headers */,
-				64F911A407F8ACC03A7C86AC44674545 /* UIImage+Metadata.h in Headers */,
-				E6FBDC371BA32F40F05C83C17D2111C9 /* UIImage+MultiFormat.h in Headers */,
-				3C2D40FB5AC573EB05F604565B6C26B8 /* UIImage+Transform.h in Headers */,
-				50DEEEEC182752910FEF6035524A1CBE /* UIImageView+HighlightedWebCache.h in Headers */,
-				91F417D3992E5DD31B808424D9B1F8DB /* UIImageView+WebCache.h in Headers */,
-				7A0AA3B0002561B6D35C024701373166 /* UIView+WebCache.h in Headers */,
-				93BD1B5F68E6FA32ABF543D16E6CD8AC /* UIView+WebCacheOperation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6F8481600D384853EBEFD4F15E224722 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0DF889C5918BB3EAFF0F892120321EDE /* Pods-X-Team_Test_Movies-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8FCFB66381534E24E86E774C302DCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2705DE751EE49EEEC6CC5C61C14C1918 /* NSBezierPath+RoundedCorners.h in Headers */,
+				B952CCA494B35335DAB23C605266E3C8 /* NSButton+WebCache.h in Headers */,
+				CEC8A06D87D3C8A51D6D3814D327331A /* NSData+ImageContentType.h in Headers */,
+				2E0F4F4A58E423F95DD8EC6301F5EF41 /* NSImage+Compatibility.h in Headers */,
+				32BF2DB3F23BF4E9D991554EB58A4D51 /* SDAnimatedImage.h in Headers */,
+				82685795A4FEA7356B92BBED9ACF6F08 /* SDAnimatedImagePlayer.h in Headers */,
+				AFA9123BC2905895B892675812F91C13 /* SDAnimatedImageRep.h in Headers */,
+				E776B379A41ADA2D7AD171C96A15BE6B /* SDAnimatedImageView+WebCache.h in Headers */,
+				78ED52C5E2F90FF950ED2249FAE98593 /* SDAnimatedImageView.h in Headers */,
+				6AEE065F8C015582DBC017A59DBFDB47 /* SDAsyncBlockOperation.h in Headers */,
+				F32B923F48407C5D61DBA1820C41D030 /* SDDeviceHelper.h in Headers */,
+				347DEAD729AB564EF312EF7F1656DBF0 /* SDDiskCache.h in Headers */,
+				13831D90A13B1B27E35A3F0C1210E0FD /* SDDisplayLink.h in Headers */,
+				4845C57F721F2FA34218F9DBA39C3327 /* SDImageAPNGCoder.h in Headers */,
+				11EF7BEF32AF4D64582DC0B7151395B8 /* SDImageAssetManager.h in Headers */,
+				2A933803E9BC29805B95AA068B7066FE /* SDImageCache.h in Headers */,
+				DD03FDDA0531EB3D8092BC70F0065C0C /* SDImageCacheConfig.h in Headers */,
+				49946FAFDC0308073C77FD5FE8A95B78 /* SDImageCacheDefine.h in Headers */,
+				FBF1B8AB019F1145092D8610C4F567A0 /* SDImageCachesManager.h in Headers */,
+				45AEAFE7BB368EE6961A40DEFB10115E /* SDImageCachesManagerOperation.h in Headers */,
+				1CBBC7E55BF63676E99923ED2ECA398F /* SDImageCoder.h in Headers */,
+				1C445E9F906283C41B0E14F040F21193 /* SDImageCoderHelper.h in Headers */,
+				7F23C579666AE5EEE79AC996006B80B1 /* SDImageCodersManager.h in Headers */,
+				5D7BED7EAFB5F9E46B07234A5F6B737C /* SDImageFrame.h in Headers */,
+				3AB11550F8EF7F6771EED12FFE6364DA /* SDImageGIFCoder.h in Headers */,
+				7633B17EADC8651579F748304A7929FB /* SDImageGraphics.h in Headers */,
+				4E3C45DE8FE64964AE53D55250FF0CB6 /* SDImageHEICCoder.h in Headers */,
+				8B887BDA8CE58CBD3999C4E531BAA12E /* SDImageHEICCoderInternal.h in Headers */,
+				D6732614200F20687E70E7B0155AB9A8 /* SDImageIOAnimatedCoder.h in Headers */,
+				4C80FE57D84F62620005F1150C1D3167 /* SDImageIOAnimatedCoderInternal.h in Headers */,
+				98C9BD41C36B4D6BD36AA4E8EEBB0F61 /* SDImageIOCoder.h in Headers */,
+				E568AABB01E8800B7036989E16B6EC37 /* SDImageLoader.h in Headers */,
+				051653DFF3F5A00E6C5A0123352D0AF0 /* SDImageLoadersManager.h in Headers */,
+				37EA3249B424600E82B3C74B229923BC /* SDImageTransformer.h in Headers */,
+				BE3F96DB107AE2DAD6FEDC9548EBEEC0 /* SDInternalMacros.h in Headers */,
+				66323B6AD7E9D7BAF0168C47FD09F130 /* SDMemoryCache.h in Headers */,
+				EE2A12AFC54CBB86446DE8DDAFAA3D5C /* SDmetamacros.h in Headers */,
+				561036A0CEA8379CE2DC098A71BA0C9E /* SDWeakProxy.h in Headers */,
+				63202E56AA89F9104314ED047B2AA701 /* SDWebImage-umbrella.h in Headers */,
+				8DCA9BB75D47DB528EA189A3093F42AC /* SDWebImage.h in Headers */,
+				041931276E7CB124FEC73AD7FFE9C22A /* SDWebImageCacheKeyFilter.h in Headers */,
+				E76AA3C121CD832478BF2DA451F6C6B6 /* SDWebImageCacheSerializer.h in Headers */,
+				42811EC34754D25542315FB3679FFBEB /* SDWebImageCompat.h in Headers */,
+				AE90334312EE8968E3EDCED5EC23B445 /* SDWebImageDefine.h in Headers */,
+				A3412AFD98B0839B470BCCD277FF57F4 /* SDWebImageDownloader.h in Headers */,
+				5CE32E51E3EE2AC1E25F68F8AE4BB009 /* SDWebImageDownloaderConfig.h in Headers */,
+				EB62FCA60469A24E9148B1D235B4C28A /* SDWebImageDownloaderDecryptor.h in Headers */,
+				04973E3B9B525965D30B5B4C580E6A6C /* SDWebImageDownloaderOperation.h in Headers */,
+				0C1D30A59D727202EC5C028A4912FF58 /* SDWebImageDownloaderRequestModifier.h in Headers */,
+				70E6742D5C08BB842E1FC4933874B159 /* SDWebImageDownloaderResponseModifier.h in Headers */,
+				88A3BF33F41D2F8139C68AD4A2FF5434 /* SDWebImageError.h in Headers */,
+				3FD34FED685C815F7D97666ABBBCD675 /* SDWebImageIndicator.h in Headers */,
+				6AEB58855406E4A40EB053F37D0AFAB1 /* SDWebImageManager.h in Headers */,
+				EB1A967957EFC02D115CF1BD31C4A471 /* SDWebImageOperation.h in Headers */,
+				532EB2B3EC9723E0DBB63621DED31871 /* SDWebImageOptionsProcessor.h in Headers */,
+				E83249926AC749039A7E9558D364A0E1 /* SDWebImagePrefetcher.h in Headers */,
+				689B706155B26EC60530D20794E15942 /* SDWebImageTransition.h in Headers */,
+				E622DF3A5AD260B54FFCB11C5071934E /* UIButton+WebCache.h in Headers */,
+				4EE98C8915BD56A1AACB99EDFE9E75BA /* UIColor+HexString.h in Headers */,
+				E07FD158FFE84A74639CE7886FDE76B0 /* UIImage+ForceDecode.h in Headers */,
+				88B04298FD2DD22196BB21C5B51673E9 /* UIImage+GIF.h in Headers */,
+				DDC19ABA63DA89EE1775E64BE2CA6AB9 /* UIImage+MemoryCacheCost.h in Headers */,
+				197430DB1713615EE2422F8E8E1E577C /* UIImage+Metadata.h in Headers */,
+				AD3F84717B599277567EA26EEB412F1F /* UIImage+MultiFormat.h in Headers */,
+				930BEF683C687C960EC5EDDAB09AD40B /* UIImage+Transform.h in Headers */,
+				A1F1CE65A9431A628B071A181C77281C /* UIImageView+HighlightedWebCache.h in Headers */,
+				6F500AD81ECA4D9EC4B3C93B876B9FA1 /* UIImageView+WebCache.h in Headers */,
+				54DFCBBA9B9B4AABD8B49C795D441BD2 /* UIView+WebCache.h in Headers */,
+				86A74A50A4097EFC0553DA0471B3493C /* UIView+WebCacheOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -924,8 +959,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E258F69A568B5F687F420106C078B5D /* Build configuration list for PBXNativeTarget "SDWebImage" */;
 			buildPhases = (
-				319A3A5C1AA20CBAFC820775E3702FD8 /* Headers */,
-				3CF649191B6AA51D9403399B5B2F0610 /* Sources */,
+				7C8FCFB66381534E24E86E774C302DCD /* Headers */,
+				2DD69FD6107FBD6BB6BA38B0AB66CB3F /* Sources */,
 				75DAF10CE820E716D945EEEB52C9D30B /* Frameworks */,
 				B5CDFB8355BE8C8A418237449B9089FC /* Resources */,
 			);
@@ -1041,77 +1076,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2DD69FD6107FBD6BB6BA38B0AB66CB3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC357435C1EE50F4CE179FAF4190C6E /* NSBezierPath+RoundedCorners.m in Sources */,
+				17BA8F5706A98AC41EB65B146955E62E /* NSButton+WebCache.m in Sources */,
+				2379513C01088C82298DB6FD1792DECB /* NSData+ImageContentType.m in Sources */,
+				A6F9A6157E71D5884CE3D1829557A895 /* NSImage+Compatibility.m in Sources */,
+				2EB57755A31142761BD02DDFEDDB531A /* SDAnimatedImage.m in Sources */,
+				626F98F7F4308E8EEFC89018E7A6E0BC /* SDAnimatedImagePlayer.m in Sources */,
+				6C6737C47E5DA307898E3D17028D32B2 /* SDAnimatedImageRep.m in Sources */,
+				21B93535A75179B4DEC610F3FF95E7AC /* SDAnimatedImageView+WebCache.m in Sources */,
+				A3F0262FA538E38958CE6079EDBAE246 /* SDAnimatedImageView.m in Sources */,
+				E1763FB7AE2B0A01D5245555AA909774 /* SDAsyncBlockOperation.m in Sources */,
+				4E44E3CE986372A27B5521998F2930DF /* SDDeviceHelper.m in Sources */,
+				51F19FC7A9F4019795B97293CFAC4C65 /* SDDiskCache.m in Sources */,
+				19A5E320331CFFC4B9E3982699EC4FEF /* SDDisplayLink.m in Sources */,
+				CDB707EB1A706C983686C2D2949EA763 /* SDImageAPNGCoder.m in Sources */,
+				30FD1EC73E6F93729034B2C77B44AF8A /* SDImageAssetManager.m in Sources */,
+				C8A7D8A32344B5BD31276FC7BFB85BC5 /* SDImageCache.m in Sources */,
+				FCF76E3217ED5BDA9A88D80388BA1EEE /* SDImageCacheConfig.m in Sources */,
+				9069F10EEDCAF83E186310CB2B5EC36B /* SDImageCacheDefine.m in Sources */,
+				A29F5A4359C60C0A446C8A83452D4188 /* SDImageCachesManager.m in Sources */,
+				E0B26F13288C1A93CEA8CBA33C1C8015 /* SDImageCachesManagerOperation.m in Sources */,
+				6578FB710E5606A7FE1CDC6B28A35F59 /* SDImageCoder.m in Sources */,
+				B604E6EE050FE61CEBA88515F881A57A /* SDImageCoderHelper.m in Sources */,
+				0ED0EA64903B9AD0490D4540B3F4A8D4 /* SDImageCodersManager.m in Sources */,
+				F6B4C9F963417A7532F9B125BD40F506 /* SDImageFrame.m in Sources */,
+				A637494D2689F86AF7E36E95C06C4592 /* SDImageGIFCoder.m in Sources */,
+				44EE54F25E747ED4D4C31A5C8D13ECC3 /* SDImageGraphics.m in Sources */,
+				1688EB3F49F42FEFD8BB6B5DCA4BCCC7 /* SDImageHEICCoder.m in Sources */,
+				AF05381DF2C0354135767BF7AEBD8894 /* SDImageIOAnimatedCoder.m in Sources */,
+				7510A936A5CFEF2CABFA3C7B32BCAB8B /* SDImageIOCoder.m in Sources */,
+				AF0F4BCF7749C939654777F3430BF3A5 /* SDImageLoader.m in Sources */,
+				2B8BB7005EF6DF5591D9727668784BCF /* SDImageLoadersManager.m in Sources */,
+				ECD9FD1FD4FB03FF2D526E21D98EFC02 /* SDImageTransformer.m in Sources */,
+				C65433F5DE7D448DC9DC2A09A29E6A1A /* SDInternalMacros.m in Sources */,
+				62E46EAD3D16CEED056541D868CE52B6 /* SDMemoryCache.m in Sources */,
+				E1731E3F81AB2B92CA6016A1333E4539 /* SDWeakProxy.m in Sources */,
+				23CDE89ED15A4E3C1C4C3F12C8C8AE32 /* SDWebImage-dummy.m in Sources */,
+				BBD56361526F03F9FD36CFB440096B5B /* SDWebImageCacheKeyFilter.m in Sources */,
+				E866C1491FE5341A01A4861F12CBEE41 /* SDWebImageCacheSerializer.m in Sources */,
+				F723320AD732AE87866E354BA8600005 /* SDWebImageCompat.m in Sources */,
+				9DED725A8F9F586B56AB35814A52AD47 /* SDWebImageDefine.m in Sources */,
+				A0294FD023141CCB69981AD5781099E5 /* SDWebImageDownloader.m in Sources */,
+				34C0317DBDBA76F63ACA6C727A57BB18 /* SDWebImageDownloaderConfig.m in Sources */,
+				8E7B30337248D1F6C11E17BCC985209B /* SDWebImageDownloaderDecryptor.m in Sources */,
+				BFE5C02004C9F5FE06DBAD261CDFB859 /* SDWebImageDownloaderOperation.m in Sources */,
+				7D8E4CAF4AA157848553523B7BF24E23 /* SDWebImageDownloaderRequestModifier.m in Sources */,
+				9D923E063F9A7715352E1912FB515DE9 /* SDWebImageDownloaderResponseModifier.m in Sources */,
+				5646D8A2889E490C7342A4EE6AB61F0A /* SDWebImageError.m in Sources */,
+				50924489C23F0E58DDCF14B647B8E0C6 /* SDWebImageIndicator.m in Sources */,
+				03EA0B6425EC500CADEB69E786D77499 /* SDWebImageManager.m in Sources */,
+				49A8D68CEE363CC379CAF124655CAB0B /* SDWebImageOptionsProcessor.m in Sources */,
+				06C0774B2D9500058D928DF08EB36B48 /* SDWebImagePrefetcher.m in Sources */,
+				BEE52FD35AC9D6FB3AD2084D4685F179 /* SDWebImageTransition.m in Sources */,
+				C3203114C4370056EB5128EA3C01C948 /* UIButton+WebCache.m in Sources */,
+				DFE98031D977953D055BCCD3148D2066 /* UIColor+HexString.m in Sources */,
+				204E496147CE4EBAFA9248D14E0058B8 /* UIImage+ForceDecode.m in Sources */,
+				6AF063FBFD7A6F887A97FB7FC0AEA8F0 /* UIImage+GIF.m in Sources */,
+				E7A2F3C9BE69935E6EA4781DABB284ED /* UIImage+MemoryCacheCost.m in Sources */,
+				EC925EF9F29C08B5A26D1DB3152D720F /* UIImage+Metadata.m in Sources */,
+				FD7630D24EA8D3E5C983C2111CED0C21 /* UIImage+MultiFormat.m in Sources */,
+				C78A8B1A169A29C3E9856D4B2A14962C /* UIImage+Transform.m in Sources */,
+				395937DF2C6F3D5A6D5064E0AA318DBD /* UIImageView+HighlightedWebCache.m in Sources */,
+				203F2F6EDF77D58F605CCDE66910DCE3 /* UIImageView+WebCache.m in Sources */,
+				92B450C8F14679ADEA6C717D89CC3DDC /* UIView+WebCache.m in Sources */,
+				9088FFA535D8B2B4B21AF5FB97B8A9C6 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3924A55CF15872EBD501FB80227DA4DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6628F8608F61FF734DE006DF5977C1A3 /* Pods-X-Team_Test_MoviesTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CF649191B6AA51D9403399B5B2F0610 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41D82716591F62ACB793D9D1DFB21EC5 /* NSBezierPath+RoundedCorners.m in Sources */,
-				366177FB57C6C3357D30947D031F80FD /* NSButton+WebCache.m in Sources */,
-				142A086589490ACDBC2E91E244C89DD0 /* NSData+ImageContentType.m in Sources */,
-				786B08EFAD24E24E8425B20A3D9EF85E /* NSImage+Compatibility.m in Sources */,
-				51AFD0AE067B47D284493B096018AF72 /* SDAnimatedImage.m in Sources */,
-				A69DB5225A1FAE234409F78CB36B0D06 /* SDAnimatedImageRep.m in Sources */,
-				069C55174180971BA21770941335494B /* SDAnimatedImageView+WebCache.m in Sources */,
-				CDD6917CDE2CCD1FAED6E3011F89CBE4 /* SDAnimatedImageView.m in Sources */,
-				F5C4C92F53A09A6929B0FDD25AAE74C9 /* SDAsyncBlockOperation.m in Sources */,
-				7168319AC55E02535FE3479637DF2B92 /* SDDiskCache.m in Sources */,
-				4C6205170027FB16A0683E08685178AA /* SDImageAPNGCoder.m in Sources */,
-				814499C2225A9F1ECC2C39FD2E49D2A8 /* SDImageAssetManager.m in Sources */,
-				8844023DB8264B7AD33B8A81A91FF022 /* SDImageCache.m in Sources */,
-				58FD6BEA1487E392C78DF6F96A3B9889 /* SDImageCacheConfig.m in Sources */,
-				4118F200013F8CF0F787077305FB78F3 /* SDImageCacheDefine.m in Sources */,
-				81685969BF296D54177364D4F2838C6F /* SDImageCachesManager.m in Sources */,
-				736A99E1F553DB0B950237FD78F0F9D4 /* SDImageCachesManagerOperation.m in Sources */,
-				915764D8B1E1A6E056A1305243796B21 /* SDImageCoder.m in Sources */,
-				AC023BC60B6CE44C18E47405C4E8FE02 /* SDImageCoderHelper.m in Sources */,
-				916302151893AB7BA9CAB85DDF1784CF /* SDImageCodersManager.m in Sources */,
-				C645934DBECFF0D6F6F819FC8AF93B92 /* SDImageFrame.m in Sources */,
-				583DDA37ACCAF926A5E44B6CD19B6FE6 /* SDImageGIFCoder.m in Sources */,
-				AC99AD8873F2A7DCE892C6DBA3CB5E35 /* SDImageGraphics.m in Sources */,
-				AB1D2BEA384CE6991F5A88E6AE88EED8 /* SDImageHEICCoder.m in Sources */,
-				EFD30532ABF5AEE926B49725455B8C1A /* SDImageIOAnimatedCoder.m in Sources */,
-				54831136BAB7BAE92D518037AA602185 /* SDImageIOCoder.m in Sources */,
-				DCD32982E86EB5E4635A839F6269944C /* SDImageLoader.m in Sources */,
-				7294DAF5E9561E9A578B5661FDDE8C5E /* SDImageLoadersManager.m in Sources */,
-				417E386AB765EBD7627BC8A042BFE189 /* SDImageTransformer.m in Sources */,
-				5648B028E5702CA5926CC224DE1A9F31 /* SDInternalMacros.m in Sources */,
-				A840D9856811EDCBD21FBB4398612368 /* SDMemoryCache.m in Sources */,
-				BF9887D9297C0499862EE97FE429B16F /* SDWeakProxy.m in Sources */,
-				696C50D3C2F1151D95646F36CBADF304 /* SDWebImage-dummy.m in Sources */,
-				2B643C475D406F3CF3946F3C9F667BF3 /* SDWebImageCacheKeyFilter.m in Sources */,
-				4C4D8D07FB14A53F45C074FAED1308AE /* SDWebImageCacheSerializer.m in Sources */,
-				007691A463F195F0615D292E88B07C14 /* SDWebImageCompat.m in Sources */,
-				4B88D7106F8728E6F2CDC4400B647601 /* SDWebImageDefine.m in Sources */,
-				109A6772247614D9D8987B11192F4A61 /* SDWebImageDownloader.m in Sources */,
-				FD0D6EA9B78D3134FDBECD707F000156 /* SDWebImageDownloaderConfig.m in Sources */,
-				3680EF7E98B6274183C50DD4E8A85D4B /* SDWebImageDownloaderOperation.m in Sources */,
-				B6ED7DA1C7C69F1C85C24266589798CC /* SDWebImageDownloaderRequestModifier.m in Sources */,
-				A95D79FDF8ADA8F61ED920208F7920C3 /* SDWebImageError.m in Sources */,
-				4F1CE1B7160CC73391A4A3321FEB62F4 /* SDWebImageIndicator.m in Sources */,
-				A0BC15F374A308428710E41A787E411A /* SDWebImageManager.m in Sources */,
-				C1038791867E53A60841CEA37E392309 /* SDWebImageOptionsProcessor.m in Sources */,
-				9F8F75C392CF5968D097918EB181783E /* SDWebImagePrefetcher.m in Sources */,
-				D46F168505CA6AC06896BF9BC51A50CF /* SDWebImageTransition.m in Sources */,
-				AECBD2C45A2FB0D6139EC066905DCA0F /* UIButton+WebCache.m in Sources */,
-				8977CC5C7F088A7490A2DBB18D2E6140 /* UIColor+HexString.m in Sources */,
-				579EC1E7A933ADBCAA13A8CD5FDAFC85 /* UIImage+ForceDecode.m in Sources */,
-				7557F586CAD0DBA6D4E7DCA784C62F38 /* UIImage+GIF.m in Sources */,
-				C676E48386B53D48733BA15F7CB1E56C /* UIImage+MemoryCacheCost.m in Sources */,
-				85D9B4E18EFAF2E16DDB0F791A486081 /* UIImage+Metadata.m in Sources */,
-				5BE88E73D3FDEB9968D0571549109EB9 /* UIImage+MultiFormat.m in Sources */,
-				8CEA7C5EAC45CABD7EDB649E5AC589A2 /* UIImage+Transform.m in Sources */,
-				AC4299BDB4F7D7336C7EB4A692417640 /* UIImageView+HighlightedWebCache.m in Sources */,
-				DBC1A985776E03624D40902B177F33B8 /* UIImageView+WebCache.m in Sources */,
-				886C3978F29B7B98B103C9212EE8E9B1 /* UIView+WebCache.m in Sources */,
-				29B0861A9266590CDCD000A7B2DCF593 /* UIView+WebCacheOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1194,7 +1234,7 @@
 		};
 		518B14813C3B27A406AED08CA4051EEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 561D37E70FDAD720AC3C0F73E52A13F0 /* SDWebImage.xcconfig */;
+			baseConfigurationReference = C0F4FAAFFA6BDDDAAE509ACAF561ED69 /* SDWebImage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1474,7 +1514,7 @@
 		};
 		CBFDCC2974D6CA25357F26D33836E322 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 561D37E70FDAD720AC3C0F73E52A13F0 /* SDWebImage.xcconfig */;
+			baseConfigurationReference = C0F4FAAFFA6BDDDAAE509ACAF561ED69 /* SDWebImage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

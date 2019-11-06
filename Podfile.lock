@@ -1,8 +1,8 @@
 PODS:
   - Alamofire (4.9.1)
-  - SDWebImage (5.2.5):
-    - SDWebImage/Core (= 5.2.5)
-  - SDWebImage/Core (5.2.5)
+  - SDWebImage (5.3.0):
+    - SDWebImage/Core (= 5.3.0)
+  - SDWebImage/Core (5.3.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -15,7 +15,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  SDWebImage: 4eabf2fa6695c95c47724214417a9c036c965e4a
+  SDWebImage: f1afa74b86587c2c63f4e80dfd39b21e3c17b45b
 
 PODFILE CHECKSUM: a6d68af6048317cd2988f5d08e22d28f541d61b3
 
