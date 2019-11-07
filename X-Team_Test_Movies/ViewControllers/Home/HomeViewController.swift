@@ -11,15 +11,25 @@ import Firebase
 
 class HomeViewController: UIViewController {
   
-  private let categoriesListService = CategoriesListService()
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
     
-    categoriesListService.getPopularMovies(pageNumber: 1, success: { result in
-        print("got it!")
+    
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
+    private let categoriesListService = CategoriesListService()
+    lazy var viewModel: CategoriesListViewModel = {
+        return CategoriesListViewModel()
+    }()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    
+        categoriesListService.getPopularMovies(pageNumber: 1, success: { movies in
+            for movie in movies {
+                print(movie.title!)
+            }
         }) {
-        print("error")
+            print("error")
         }
     }
     
