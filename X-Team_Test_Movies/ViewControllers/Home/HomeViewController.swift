@@ -18,6 +18,8 @@ class HomeViewController: UIViewController {
     lazy var viewModel: CategoriesListViewModel = {
         return CategoriesListViewModel()
     }()
+    
+    var selectedMovie: Movie?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -94,6 +96,16 @@ class HomeViewController: UIViewController {
            let initial = storyboard.instantiateInitialViewController()
            UIApplication.shared.keyWindow?.rootViewController = initial
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+
+        if (segue.identifier == "listToDetail") {
+            // initialize new view controller and cast it as your view controller
+            let detailViewController = segue.destination as! PopularDetailViewController
+            // your new view controller should have property that will store passed value
+            detailViewController.selectedMovie = selectedMovie
+        }
+    }
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
@@ -122,16 +134,11 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
-        let selectedMovie = self.viewModel.userPressed(at: indexPath)
+        selectedMovie = self.viewModel.userPressed(at: indexPath)
         
-        print("Movie selected: \(String(describing: selectedMovie.title))")
+        print("Movie selected: \(String(describing: selectedMovie?.title))")
         
-        /*
-        let popularDetailViewController = PopularDetailViewController(nibName:"PopularDetailViewController", bundle: nil)
-        popularDetailViewController.selectedMovie = selectedMovie
-        popularDetailViewController.imageUrl = self.viewModel.selectedMovieUrl
-        self.navigationController?.pushViewController(popularDetailViewController, animated: true)
-         */
+        self.performSegue(withIdentifier: "listToDetail", sender: self)
         
         return indexPath
     }
