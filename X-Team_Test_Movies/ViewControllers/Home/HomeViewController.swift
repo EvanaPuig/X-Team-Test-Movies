@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  X-Team_Test_Movies
 //
 //  Created by Evana Margain Puig on 01/11/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
   
   private let categoriesListService = CategoriesListService()
 
