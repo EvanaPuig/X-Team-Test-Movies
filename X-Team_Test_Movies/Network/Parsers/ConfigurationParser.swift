@@ -11,7 +11,7 @@ import SwiftyJSON
 
 class ConfigurationParser {
     
-    private var posterSizes: Array<String>?
+    var posterSizes: [String] = []
     
     func parse(data: Data) -> Configuration {
         do {
@@ -19,8 +19,10 @@ class ConfigurationParser {
             
             let baseUrl = json["images"]["base_url"].stringValue
             let secureBaseUrl = json["images"]["secure_base_url"].stringValue
-            for item in json["images"]["poster_sizes"].arrayValue {
-                posterSizes?.append(item.stringValue)
+            let posterArray = json["images"]["poster_sizes"].arrayValue
+            
+            for item in posterArray {
+                posterSizes.append(item.stringValue)
             }
             
             let imageConfiguration = Images(baseUrl: baseUrl, secureBaseUrl: secureBaseUrl, posterSizes: posterSizes)

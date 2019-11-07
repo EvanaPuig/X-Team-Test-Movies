@@ -20,7 +20,7 @@ class CategoriesListViewModel {
     var selectedMovie: Movie?
     var selectedMovieUrl: String?
 
-    private var cellViewModels: [CategoriesCustomCellViewModel] = [CategoriesCustomCellViewModel]() {
+    var cellViewModels: [CategoriesCustomCellViewModel] = [CategoriesCustomCellViewModel]() {
         didSet {
             self.reloadTableViewClosure?()
         }
@@ -28,7 +28,7 @@ class CategoriesListViewModel {
 
     /// Count your data in model
     var numberOfCells: Int {
-        return cellViewModels.count
+        return movies.count
     }
     
     //MARK: -- Network checking
@@ -45,13 +45,6 @@ class CategoriesListViewModel {
     }
 
     //MARK: -- UI Status
-
-    /// Update the loading status, use HUD or Activity Indicator UI
-    var isLoading: Bool = false {
-        didSet {
-            self.updateLoadingStatus?()
-        }
-    }
 
     /// Showing alert message, use UIAlertController or other Library
     var alertMessage: String? {
@@ -81,57 +74,60 @@ class CategoriesListViewModel {
         self.networkStatus = Reach().connectionStatus()
     }
     
-    func fetchConfiguration() {
+    func fetchConfiguration(success: @escaping() -> (), failure: @escaping() -> ()) {
         switch networkStatus {
         case .offline:
             self.isDisconnected = true
             self.internetConnectionStatus?()
         case .online:
-            self.isLoading = true
             self.service.getConfiguration(success: { result in
                 self.configuration = result
-                print(self.configuration?.images?.secureBaseUrl ?? "")
-                self.fetchPopularMovies(pageNumber: 1)
-                self.isLoading = false
+                self.fetchPopularMovies(pageNumber: 1, success: {
+                    success()
+                }, failure: {
+                    failure()
+                })
             }) {
                 print("error")
-                self.isLoading = false
+                failure()
             }
         default:
             break
         }
     }
 
-    func fetchPopularMovies(pageNumber: Int) {
+    func fetchPopularMovies(pageNumber: Int, success: @escaping() -> (), failure: @escaping() -> ()) {
         switch networkStatus {
         case .offline:
             self.isDisconnected = true
             self.internetConnectionStatus?()
         case .online:
-            self.isLoading = true
-            
             self.service.getPopularMovies(pageNumber: pageNumber, success: { result in
-                self.movies = result
-                for movie in self.movies {
-                    print(movie.title ?? "")
+                for movie in result {
+                    
+                    let baseUrl = self.configuration?.images?.secureBaseUrl
+                    let imageSize = self.configuration?.images?.posterSizes?[4]
+                    let posterPath = movie.posterPath
+                    
+                    movie.imageFormattedUrl = (baseUrl ?? "") + (imageSize ?? "") + (posterPath ?? "")
                 }
-                self.isLoading = false
+                
+                self.movies = result
+                success()
             }) {
                 print("error")
-                self.isLoading = false
+                failure()
             }
         default:
             break
         }
     }
     
-    
-    
     func getCellViewModel( at indexPath: IndexPath ) -> CategoriesCustomCellViewModel {
         return cellViewModels[indexPath.row]
     }
     
-    func createCellViewModel( movie: Movie ) -> CategoriesCustomCellViewModel {
+    func createCellViewModel( movie: Movie ) {
         
         let baseUrl = configuration?.images?.secureBaseUrl
         let imageSize = configuration?.images?.posterSizes?[4]
@@ -141,9 +137,11 @@ class CategoriesListViewModel {
         formattedUrls.append(formattedURL)
         movie.imageFormattedUrl = formattedURL
         
-        return CategoriesCustomCellViewModel( titleText: movie.title ?? MovieAppConstants.movieNoTitle,
-                                              popularityText: (movie.rating?.description ?? "0") + "/10" ,
-                                         imageUrl: formattedURL)
+        let viewModel = CategoriesCustomCellViewModel( titleText: movie.title ?? MovieAppConstants.movieNoTitle,
+             popularityText: (movie.rating?.description ?? "0") + "/10" ,
+        imageUrl: formattedURL)
+        
+        cellViewModels.append(viewModel)
     }
 }
 

@@ -24,7 +24,6 @@
 		207C3B472373CF7300FE5790 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C3B462373CF7300FE5790 /* Movie.swift */; };
 		207C3B492373D63000FE5790 /* MovieParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C3B482373D63000FE5790 /* MovieParser.swift */; };
 		207C3B4D2373DEBC00FE5790 /* CategoriesCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C3B4B2373DEBC00FE5790 /* CategoriesCustomCell.swift */; };
-		207C3B4E2373DEBC00FE5790 /* CategoriesCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207C3B4C2373DEBC00FE5790 /* CategoriesCustomCell.xib */; };
 		207C3B502373DEE600FE5790 /* CategoriesCustomCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C3B4F2373DEE600FE5790 /* CategoriesCustomCellViewModel.swift */; };
 		207C3B522373E00100FE5790 /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C3B512373E00100FE5790 /* CategoriesListViewModel.swift */; };
 		207C3B542373E16E00FE5790 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C3B532373E16E00FE5790 /* Configuration.swift */; };
@@ -84,7 +83,6 @@
 		207C3B462373CF7300FE5790 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		207C3B482373D63000FE5790 /* MovieParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieParser.swift; sourceTree = "<group>"; };
 		207C3B4B2373DEBC00FE5790 /* CategoriesCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCustomCell.swift; sourceTree = "<group>"; };
-		207C3B4C2373DEBC00FE5790 /* CategoriesCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesCustomCell.xib; sourceTree = "<group>"; };
 		207C3B4F2373DEE600FE5790 /* CategoriesCustomCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCustomCellViewModel.swift; sourceTree = "<group>"; };
 		207C3B512373E00100FE5790 /* CategoriesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewModel.swift; sourceTree = "<group>"; };
 		207C3B532373E16E00FE5790 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
@@ -271,7 +269,6 @@
 			isa = PBXGroup;
 			children = (
 				207C3B4B2373DEBC00FE5790 /* CategoriesCustomCell.swift */,
-				207C3B4C2373DEBC00FE5790 /* CategoriesCustomCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -470,7 +467,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				207C3B4E2373DEBC00FE5790 /* CategoriesCustomCell.xib in Resources */,
 				20C36627236D23BD001889C6 /* .gitignore in Resources */,
 				207C3B432373BA0300FE5790 /* GoogleService-Info.plist in Resources */,
 				20159791236D195100001282 /* Assets.xcassets in Resources */,
