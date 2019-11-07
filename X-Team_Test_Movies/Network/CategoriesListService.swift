@@ -11,9 +11,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class CategoriesListService {
-    //TODO: Call protocol function
-
+class CategoriesListService: CategoriesListServiceProtocol {
   func getPopularMovies(pageNumber: Int, success: @escaping(_ result: Data) -> (), failure: @escaping() -> ()) {
 
         let url = MovieAppConstants.popularURL
