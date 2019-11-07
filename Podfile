@@ -9,6 +9,8 @@ target 'X-Team_Test_Movies' do
   pod 'Alamofire'
   pod 'SDWebImage'
   pod 'SwiftyJSON'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
   target 'X-Team_Test_MoviesTests' do
     inherit! :search_paths
