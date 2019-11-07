@@ -81,15 +81,16 @@ class CategoriesListViewModel {
         self.networkStatus = Reach().connectionStatus()
     }
     
-    func fetchConfiguration(caller: String) {
+    func fetchConfiguration() {
         switch networkStatus {
         case .offline:
             self.isDisconnected = true
             self.internetConnectionStatus?()
         case .online:
             self.isLoading = true
-            self.service.getConfiguration(success: { data in
-                
+            self.service.getConfiguration(success: { result in
+                self.configuration = result
+                print(self.configuration?.images?.secureBaseUrl ?? "")
                 self.fetchPopularMovies(pageNumber: 1)
                 self.isLoading = false
             }) {
@@ -109,8 +110,11 @@ class CategoriesListViewModel {
         case .online:
             self.isLoading = true
             
-            self.service.getPopularMovies(pageNumber: pageNumber, success: { data in
-                //self.processFetchedMovie(movies: self.movies)
+            self.service.getPopularMovies(pageNumber: pageNumber, success: { result in
+                self.movies = result
+                for movie in self.movies {
+                    print(movie.title ?? "")
+                }
                 self.isLoading = false
             }) {
                 print("error")

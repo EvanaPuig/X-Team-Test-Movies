@@ -10,8 +10,6 @@ import UIKit
 import Firebase
 
 class HomeViewController: UIViewController {
-  
-    
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -24,26 +22,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        getMoviesConfiguration()
-    }
-    
-    func getMoviesConfiguration() {
-        categoriesListService.getConfiguration(success: { configuration in
-            print(configuration)
-            self.getMovieList()
-        }) {
-            print("error in configuration")
-        }
-    }
-    
-    func getMovieList() {
-        categoriesListService.getPopularMovies(pageNumber: 1, success: { movies in
-            for movie in movies {
-                print(movie.title!)
-            }
-        }) {
-            print("error in movies")
-        }
+        viewModel.fetchConfiguration()
     }
     
     @IBAction func logOutAction(_ sender: Any) {

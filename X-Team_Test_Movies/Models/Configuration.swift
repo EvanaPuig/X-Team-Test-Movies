@@ -10,15 +10,11 @@ import Foundation
 
 class Configuration {
     // MARK: Properties
-    var uniqueId: Int16?
     var images: Images?
-    var changeKeys: Array<String>?
     
     // MARK: Initializer
-    init(uniqueId: Int16?, images: Images?, changeKeys: Array<String>?) {
-        self.uniqueId = uniqueId
+    init(images: Images?) {
         self.images = images
-        self.changeKeys = changeKeys
     }
 }
 

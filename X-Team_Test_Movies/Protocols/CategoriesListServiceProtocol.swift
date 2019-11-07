@@ -15,7 +15,7 @@ protocol CategoriesListServiceProtocol {
     ///                 example: success(_ data: YourModelName) -> ()
     ///   - failure: -- failure closure response, add your Model on this closure.
     ///                 example: success(_ data: APIError) -> ()
-    func getConfiguration(success: @escaping(_ data: Configuration) -> (), failure: @escaping() -> ())
+    func getConfiguration(success: @escaping(_ data: Configuration?) -> (), failure: @escaping() -> ())
     func getPopularMovies(pageNumber: Int, success: @escaping(_ data: [Movie]) -> (), failure: @escaping() -> ())
 
 }

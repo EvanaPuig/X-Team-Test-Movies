@@ -14,10 +14,11 @@ import SwiftyJSON
 class CategoriesListService: CategoriesListServiceProtocol {
     
     private let movieParser = MovieParser()
+    private let configurationParser = ConfigurationParser()
     private var movies: [Movie] = []
     private var configuration: Configuration?
     
-    func getConfiguration(success: @escaping(_ data: Configuration) -> (), failure: @escaping() -> ()) {
+    func getConfiguration(success: @escaping(_ data: Configuration?) -> (), failure: @escaping() -> ()) {
         
         let url = MovieAppConstants.configurationURL
         
@@ -28,8 +29,8 @@ class CategoriesListService: CategoriesListServiceProtocol {
             encoding: URLEncoding.default,
             headers: [MovieAppConstants.headerContentType: MovieAppConstants.headerContentTypeValue],
             completion: { data in
-                    print(data)
-                    //success(data)
+                self.configuration = self.configurationParser.parse(data: data)
+                success(self.configuration)
         }) { errorMsg, errorCode in
             failure()
         }

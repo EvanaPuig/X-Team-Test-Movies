@@ -34,7 +34,7 @@ struct APIManager {
         manager = Alamofire.SessionManager(configuration: configuration)
         
         let apiURL = MovieAppConstants.movieDBApiURL + url
-        print("-- URL API: \(apiURL), \n\n-- headers: \(headers), \n\n-- Parameters: \(parameters)")
+        //print("-- URL API: \(apiURL), \n\n-- headers: \(headers), \n\n-- Parameters: \(parameters)")
         
         manager.request(
             apiURL,
@@ -44,7 +44,7 @@ struct APIManager {
             headers: headers)
           .responseJSON { response in
                     
-                    print("--\n \n CALLBACK RESPONSE: \(response)")
+                    //print("--\n \n CALLBACK RESPONSE: \(response)")
                     
                     if response.response?.statusCode == 200 {
                         guard let callback = response.data else {
