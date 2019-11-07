@@ -17,8 +17,16 @@ class SignupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Looks for single or multiple taps to dismiss the view
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+
+        view.addGestureRecognizer(tap)
+        
+        passwordConfirm.delegate = self
     }
     
+    /// Function that enables the user to sign up
     @IBAction func signUpAction(_ sender: Any) {
         if password.text != passwordConfirm.text {
             let alertController = UIAlertController(title: "Password Incorrect", message: "Please re-type password", preferredStyle: .alert)
@@ -40,5 +48,18 @@ class SignupViewController: UIViewController {
                 }
             }
         }
+    }
+    
+    //Calls this function when the tap is recognized.
+    @objc func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
+}
+
+extension SignupViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
 }
