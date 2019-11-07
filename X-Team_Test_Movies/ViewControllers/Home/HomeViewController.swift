@@ -23,13 +23,26 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        getMoviesConfiguration()
+    }
     
+    func getMoviesConfiguration() {
+        categoriesListService.getConfiguration(success: { configuration in
+            print(configuration)
+            self.getMovieList()
+        }) {
+            print("error in configuration")
+        }
+    }
+    
+    func getMovieList() {
         categoriesListService.getPopularMovies(pageNumber: 1, success: { movies in
             for movie in movies {
                 print(movie.title!)
             }
         }) {
-            print("error")
+            print("error in movies")
         }
     }
     

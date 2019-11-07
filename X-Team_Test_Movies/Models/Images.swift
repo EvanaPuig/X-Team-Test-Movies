@@ -11,19 +11,11 @@ import Foundation
 class Images {
     var baseUrl: String?
     var secureBaseUrl: String?
-    var backdropSizes: Array<String>?
-    var logoSizes: Array<String>?
     var posterSizes: Array<String>?
-    var profileSizes: Array<String>?
-    var stillSizes: Array<String>?
     
-    init(baseUrl: String?, secureBaseUrl: String?, backdropSizes: Array<String>?, logoSizes: Array<String>?, posterSizes: Array<String>?, profileSizes: Array<String>?, stillSizes: Array<String>?) {
+    init(baseUrl: String?, secureBaseUrl: String?, posterSizes: Array<String>?) {
         self.baseUrl = baseUrl
         self.secureBaseUrl = secureBaseUrl
-        self.backdropSizes = backdropSizes
-        self.logoSizes = logoSizes
         self.posterSizes = posterSizes
-        self.profileSizes = profileSizes
-        self.stillSizes = stillSizes
     }
 }

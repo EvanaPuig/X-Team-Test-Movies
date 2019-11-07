@@ -15,6 +15,7 @@ class CategoriesListService: CategoriesListServiceProtocol {
     
     private let movieParser = MovieParser()
     private var movies: [Movie] = []
+    private var configuration: Configuration?
     
     func getConfiguration(success: @escaping(_ data: Configuration) -> (), failure: @escaping() -> ()) {
         
@@ -27,19 +28,11 @@ class CategoriesListService: CategoriesListServiceProtocol {
             encoding: URLEncoding.default,
             headers: [MovieAppConstants.headerContentType: MovieAppConstants.headerContentTypeValue],
             completion: { data in
-                // mapping data
-                do {
                     print(data)
                     //success(data)
-                } catch {
-                    
-                    failure()
-                }
-                
         }) { errorMsg, errorCode in
             failure()
         }
-        
     }
     
     func getPopularMovies(pageNumber: Int, success: @escaping(_ result: [Movie]) -> (), failure: @escaping() -> ()) {
