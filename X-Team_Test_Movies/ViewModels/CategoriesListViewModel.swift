@@ -138,7 +138,7 @@ class CategoriesListViewModel {
         movie.imageFormattedUrl = formattedURL
         
         let viewModel = CategoriesCustomCellViewModel( titleText: movie.title ?? MovieAppConstants.movieNoTitle,
-             popularityText: (movie.rating?.description ?? "0") + "/10" ,
+                                                       popularityText: (movie.rating?.description ?? "0") + MovieAppConstants.detailVCRatingLabelEnd ,
         imageUrl: formattedURL)
         
         cellViewModels.append(viewModel)

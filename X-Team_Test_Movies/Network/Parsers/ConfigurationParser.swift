@@ -17,9 +17,9 @@ class ConfigurationParser {
         do {
             let json = try JSON(data: data)
             
-            let baseUrl = json[MovieAppConstants.configurationParserImagesKey]["base_url"].stringValue
-            let secureBaseUrl = json[MovieAppConstants.configurationParserImagesKey]["secure_base_url"].stringValue
-            let posterArray = json[MovieAppConstants.configurationParserImagesKey]["poster_sizes"].arrayValue
+            let baseUrl = json[MovieAppConstants.configurationParserImagesKey][MovieAppConstants.configurationParserBaseUrlKey].stringValue
+            let secureBaseUrl = json[MovieAppConstants.configurationParserImagesKey][MovieAppConstants.configurationParserSecureBaseUrlKey].stringValue
+            let posterArray = json[MovieAppConstants.configurationParserImagesKey][MovieAppConstants.configurationParserPosterSizesKey].arrayValue
             
             for item in posterArray {
                 posterSizes.append(item.stringValue)
@@ -29,7 +29,7 @@ class ConfigurationParser {
             
             return Configuration(images: imageConfiguration)
         } catch {
-            print("error parsing json")
+            print(MovieAppConstants.configurationParserError)
         }
         return Configuration(images: nil)
     }

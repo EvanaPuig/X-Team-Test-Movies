@@ -29,19 +29,19 @@ class SignupViewController: UIViewController {
     /// Function that enables the user to sign up
     @IBAction func signUpAction(_ sender: Any) {
         if password.text != passwordConfirm.text {
-            let alertController = UIAlertController(title: "Password Incorrect", message: "Please re-type password", preferredStyle: .alert)
-            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            let alertController = UIAlertController(title: MovieAppConstants.signupIncorrectPasswordTitle, message: MovieAppConstants.signupIncorrectPasswordBody, preferredStyle: .alert)
+            let defaultAction = UIAlertAction(title: MovieAppConstants.genericConfirmButton, style: .cancel, handler: nil)
                 
             alertController.addAction(defaultAction)
             self.present(alertController, animated: true, completion: nil)
         } else {
             Auth.auth().createUser(withEmail: email.text!, password: password.text!){ (user, error) in
                 if error == nil {
-                    self.performSegue(withIdentifier: "signupToHome", sender: self)
+                    self.performSegue(withIdentifier: MovieAppConstants.signupToHomeSegue, sender: self)
                 }
                 else {
-                    let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
-                    let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                    let alertController = UIAlertController(title: MovieAppConstants.genericAlertTitle, message: error?.localizedDescription, preferredStyle: .alert)
+                    let defaultAction = UIAlertAction(title: MovieAppConstants.genericConfirmButton, style: .cancel, handler: nil)
                         
                     alertController.addAction(defaultAction)
                     self.present(alertController, animated: true, completion: nil)

@@ -29,10 +29,10 @@ class LoginViewController: UIViewController {
     @IBAction func loginAction(_ sender: Any) {
         Auth.auth().signIn(withEmail: email.text!, password: password.text!) { (user, error) in
            if error == nil {
-             self.performSegue(withIdentifier: "loginToHome", sender: self)
+            self.performSegue(withIdentifier: MovieAppConstants.loginToHomeSegue, sender: self)
            } else {
-                let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
-                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            let alertController = UIAlertController(title: MovieAppConstants.genericAlertTitle, message: error?.localizedDescription, preferredStyle: .alert)
+            let defaultAction = UIAlertAction(title: MovieAppConstants.genericConfirmButton, style: .cancel, handler: nil)
                             
                 alertController.addAction(defaultAction)
                 self.present(alertController, animated: true, completion: nil)

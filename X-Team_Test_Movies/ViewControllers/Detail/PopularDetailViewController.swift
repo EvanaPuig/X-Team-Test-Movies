@@ -24,7 +24,7 @@ class PopularDetailViewController: UIViewController {
         
         movieTitle.text = selectedMovie?.title
         overviewText.text = selectedMovie?.overview
-        popularityLabel.text = "Rating: " + (selectedMovie?.rating?.description ?? "0") + "/10"
+        popularityLabel.text = MovieAppConstants.detailVCRatingLabelStart + (selectedMovie?.rating?.description ?? "0") + MovieAppConstants.detailVCRatingLabelEnd
         releaseDateLabel.text = "Release Date: " + (selectedMovie?.releaseDate)!
         imageView.sd_setImage(with: URL(string: selectedMovie?.imageFormattedUrl ?? ""))
     }

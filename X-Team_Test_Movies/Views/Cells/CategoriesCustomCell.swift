@@ -17,7 +17,7 @@ class CategoriesCustomCell: UITableViewCell {
     var movieListCellViewModel : CategoriesCustomCellViewModel? {
         didSet {
             nameLabel.text = movieListCellViewModel?.titleText
-            popularityLabel.text = "Popularity: \(movieListCellViewModel?.popularityText ?? "0.0")"
+            popularityLabel.text = "\(MovieAppConstants.detailVCRatingLabelStart) \(movieListCellViewModel?.popularityText ?? "0.0")"
             mainImageView?.sd_setImage(with: URL(string: movieListCellViewModel?.imageUrl ?? "" ))
         }
     }

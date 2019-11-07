@@ -54,7 +54,7 @@ class HomeViewController: UIViewController {
     func initViewModel() {
         
         viewModel.fetchConfiguration(success: { 
-            print("success")
+            print(MovieAppConstants.genericServiceSuccessLog)
             self.activityIndicator.isHidden = true
             self.activityIndicator.stopAnimating()
             UIView.animate(withDuration: 0.2, animations: {
@@ -66,7 +66,7 @@ class HomeViewController: UIViewController {
             self.tableView.reloadData()
             
         }) {
-            print("failure")
+            print(MovieAppConstants.genericServiceErrorLog)
         }
         
         viewModel.showAlertClosure = { [weak self] () in
@@ -89,17 +89,18 @@ class HomeViewController: UIViewController {
                try Auth.auth().signOut()
            }
             catch let signOutError as NSError {
-                print ("Error signing out: %@", signOutError)
+                print (MovieAppConstants.signOutError)
+                print(signOutError)
             }
            
-           let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard = UIStoryboard(name: MovieAppConstants.storyboardName, bundle: nil)
            let initial = storyboard.instantiateInitialViewController()
            UIApplication.shared.keyWindow?.rootViewController = initial
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
 
-        if (segue.identifier == "listToDetail") {
+        if (segue.identifier == MovieAppConstants.listToDetailSegue) {
             // initialize new view controller and cast it as your view controller
             let detailViewController = segue.destination as! PopularDetailViewController
             // your new view controller should have property that will store passed value
@@ -138,7 +139,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         
         print("Movie selected: \(String(describing: selectedMovie?.title))")
         
-        self.performSegue(withIdentifier: "listToDetail", sender: self)
+        self.performSegue(withIdentifier: MovieAppConstants.listToDetailSegue, sender: self)
         
         return indexPath
     }
