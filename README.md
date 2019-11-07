@@ -3,6 +3,7 @@
 An example app for X-Team to see my coding style
 
 ## Installation
+Just run a pod install on the project and open xcworkspace file.
 
 ## App Architecture
 This app was created with MVVM(Model View View Model) architecture and has the following layers:
