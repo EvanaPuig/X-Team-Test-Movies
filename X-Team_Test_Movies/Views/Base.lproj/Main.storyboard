@@ -37,7 +37,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="LOGIN">
                                             <attributes>
-                                                <color key="NSColor" red="0.0039215686274509803" green="0.015686274509803921" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <font key="NSFont" size="32" name="Helvetica"/>
                                             </attributes>
                                         </fragment>
@@ -53,7 +53,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="SIGN UP">
                                             <attributes>
-                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <font key="NSFont" size="32" name="Helvetica"/>
                                             </attributes>
                                         </fragment>
@@ -70,7 +70,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.74117647060000003" green="0.77647058820000003" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.16852126976027396" green="0.26051917552876708" blue="0.66837270010547956" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="YFD-Ed-2Nf" firstAttribute="leading" secondItem="ZpD-wV-2Kg" secondAttribute="leading" constant="20" id="2bP-oj-DXc"/>
                             <constraint firstItem="5HA-DW-AYe" firstAttribute="top" secondItem="ZpD-wV-2Kg" secondAttribute="top" constant="30" id="3AO-Zt-LbG"/>
@@ -110,7 +110,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="LOGIN">
                                             <attributes>
-                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <font key="NSFont" size="30" name="Helvetica"/>
                                             </attributes>
                                         </fragment>
@@ -130,6 +130,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Email">
                                         <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="30" name="Helvetica"/>
                                         </attributes>
                                     </fragment>
@@ -146,6 +147,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Password">
                                         <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="30" name="HelveticaNeue"/>
                                         </attributes>
                                     </fragment>
@@ -153,7 +155,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.74117647060000003" green="0.77647058820000003" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.2262320817" green="0.34066730740000001" blue="0.72553211449999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="74l-Wx-HvM" firstAttribute="top" secondItem="5Ht-vT-o3b" secondAttribute="top" constant="30" id="2md-bj-bf9"/>
                             <constraint firstItem="pOL-8z-vey" firstAttribute="leading" secondItem="5Ht-vT-o3b" secondAttribute="leading" constant="30" id="5Vg-Tw-4XG"/>
@@ -205,6 +207,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Email">
                                         <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="30" name="Helvetica"/>
                                         </attributes>
                                     </fragment>
@@ -216,6 +219,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Password">
                                         <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="30" name="Helvetica"/>
                                         </attributes>
                                     </fragment>
@@ -240,6 +244,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Confirm Password">
                                         <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="30" name="Helvetica"/>
                                         </attributes>
                                     </fragment>
@@ -252,7 +257,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="SIGN UP">
                                             <attributes>
-                                                <color key="NSColor" red="0.0039215686274509803" green="0.015686274509803921" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <font key="NSFont" size="30" name="Helvetica"/>
                                             </attributes>
                                         </fragment>
@@ -263,7 +268,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.74117647060000003" green="0.77647058820000003" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.22745098039215686" green="0.3411764705882353" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="zRk-kV-Ogw" firstAttribute="leading" secondItem="VDn-fo-Fqv" secondAttribute="leading" constant="30" id="148-AW-dOH"/>
                             <constraint firstItem="utN-KH-pmd" firstAttribute="top" secondItem="dyc-vi-npQ" secondAttribute="bottom" constant="30" id="4zs-0y-5OS"/>
@@ -347,7 +352,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Label">
                                                             <attributes>
-                                                                <color key="NSColor" red="0.0039215686274509803" green="0.015686274509803921" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <font key="NSFont" size="18" name="Helvetica"/>
                                                             </attributes>
                                                         </fragment>
@@ -359,7 +364,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Label">
                                                             <attributes>
-                                                                <color key="NSColor" red="0.0039215686274509803" green="0.015686274509803921" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <font key="NSFont" size="14" name="Helvetica"/>
                                                             </attributes>
                                                         </fragment>
@@ -373,7 +378,7 @@
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.74117647058823533" green="0.77647058823529413" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.22745098039215686" green="0.3411764705882353" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="lp9-1o-8qG" secondAttribute="trailing" constant="20" id="DgM-IB-fbK"/>
                                                 <constraint firstItem="lp9-1o-8qG" firstAttribute="top" secondItem="ErP-3J-wVD" secondAttribute="top" id="GNs-7z-ywu"/>
@@ -400,7 +405,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" red="0.74117647060000003" green="0.77647058820000003" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.22745098039215686" green="0.3411764705882353" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="eyM-M7-CQe" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7E1-Bg-3Hw"/>
                             <constraint firstItem="eyM-M7-CQe" firstAttribute="top" secondItem="JZi-Lc-Hzd" secondAttribute="bottom" constant="10" id="NyS-Il-IW8"/>
@@ -439,6 +444,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Title">
                                         <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="24" name="Helvetica-Bold"/>
                                         </attributes>
                                     </fragment>
@@ -450,6 +456,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Rating">
                                         <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="17" name="Helvetica"/>
                                         </attributes>
                                     </fragment>
@@ -463,7 +470,7 @@
                                     <fragment>
                                         <mutableString key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                         <attributes>
-                                            <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="18" name="Helvetica"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -483,6 +490,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Release Date">
                                         <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="17" name="Helvetica"/>
                                         </attributes>
                                     </fragment>
@@ -490,7 +498,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.74117647060000003" green="0.77647058820000003" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.22745098039215686" green="0.3411764705882353" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Lb1-od-UIB" firstAttribute="top" secondItem="PDI-cI-P18" secondAttribute="bottom" constant="30" id="0T5-Xh-FNG"/>
                             <constraint firstItem="qwj-Ca-JGm" firstAttribute="leading" secondItem="PDI-cI-P18" secondAttribute="trailing" constant="30" id="8YM-cm-CGi"/>
@@ -528,7 +536,7 @@
         <image name="Logo" width="166.5" height="166.5"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Bxk-6a-5qr"/>
+        <segue reference="IAZ-hE-sHS"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.97254901959999995" green="1" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

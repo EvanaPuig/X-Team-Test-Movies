@@ -17,13 +17,13 @@ class MovieParser {
         do {
             let json = try JSON(data: data)
             
-            for item in json["results"].arrayValue {
-                let movie = Movie(title: item["title"].stringValue, rating: item["vote_average"].int, posterPath: item["poster_path"].stringValue, overview: item["overview"].stringValue, releaseDate: item["release_date"].stringValue, imageFormattedUrl: nil)
+            for item in json[MovieAppConstants.movieParserResultsKey].arrayValue {
+                let movie = Movie(title: item[MovieAppConstants.movieParserTitleKey].stringValue, rating: item[MovieAppConstants.movieParserRatingKey].int, posterPath: item[MovieAppConstants.movieParserPosterPathKey].stringValue, overview: item[MovieAppConstants.movieParserOverviewKey].stringValue, releaseDate: item[MovieAppConstants.movieParserReleaseDateKey].stringValue, imageFormattedUrl: nil)
                 
                 movies.append(movie)
             }
         } catch {
-            print("error parsing json")
+            print(MovieAppConstants.movieParserError)
         }        
         return movies
     }

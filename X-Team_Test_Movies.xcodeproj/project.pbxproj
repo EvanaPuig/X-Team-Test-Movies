@@ -161,7 +161,6 @@
 				208E39A7236F710D0043FECF /* Models */,
 				201597B9236D1F8000001282 /* Extensions */,
 				20C36623236D2131001889C6 /* Network */,
-				20C36620236D20E3001889C6 /* Persistence */,
 				201597BA236D1F9000001282 /* Protocols */,
 				201597B8236D1F7300001282 /* Supporting Files */,
 				201597BB236D1F9B00001282 /* ViewControllers */,
@@ -301,13 +300,6 @@
 				208E39C3236F73F80043FECF /* MovieAppConstants.swift */,
 			);
 			path = Constants;
-			sourceTree = "<group>";
-		};
-		20C36620236D20E3001889C6 /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Persistence;
 			sourceTree = "<group>";
 		};
 		20C36621236D20F5001889C6 /* Delegates */ = {

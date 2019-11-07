@@ -10,6 +10,7 @@ import Foundation
 
 final class MovieAppConstants {
 
+    // MARK: Server URLs
     static let movieDBApiURL = "https://api.themoviedb.org/3/"
     static let apiKey = "api_key"
     static let apiKeyValue = "5aaf3853ee7a19ff80eca9937a5d619a"
@@ -25,7 +26,7 @@ final class MovieAppConstants {
     /* Configuration */
     static let configurationURL = "configuration"
     
-    /* Generic */
+    //MARK: Generic Constants
     static let genericError = "Oops. There is an error. Please reload."
     static let cellUnexistentError = "Cell does not exist in storyboard"
     static let networkUnavailableError = "No network connection. Please connect to the internet"
@@ -35,4 +36,17 @@ final class MovieAppConstants {
     static let movieNoTitle = "movie with no title"
     static let movieNoOverview = "movie with no overview"
     static let movieNoReleaseDate = "no release date"
+    
+    //MARK: Movie Parser Keys
+    static let movieParserResultsKey = "results"
+    static let movieParserTitleKey = "title"
+    static let movieParserRatingKey = "vote_average"
+    static let movieParserPosterPathKey = "poster_path"
+    static let movieParserOverviewKey = "overview"
+    static let movieParserReleaseDateKey = "release_date"
+    
+    static let movieParserError = "Error parsing Movies"
+    
+    //MARK: Configuration Parser Keys
+    static let configurationParserImagesKey = "images"
 }

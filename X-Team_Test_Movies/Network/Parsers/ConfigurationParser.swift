@@ -17,9 +17,9 @@ class ConfigurationParser {
         do {
             let json = try JSON(data: data)
             
-            let baseUrl = json["images"]["base_url"].stringValue
-            let secureBaseUrl = json["images"]["secure_base_url"].stringValue
-            let posterArray = json["images"]["poster_sizes"].arrayValue
+            let baseUrl = json[MovieAppConstants.configurationParserImagesKey]["base_url"].stringValue
+            let secureBaseUrl = json[MovieAppConstants.configurationParserImagesKey]["secure_base_url"].stringValue
+            let posterArray = json[MovieAppConstants.configurationParserImagesKey]["poster_sizes"].arrayValue
             
             for item in posterArray {
                 posterSizes.append(item.stringValue)
