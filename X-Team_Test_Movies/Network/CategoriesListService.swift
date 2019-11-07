@@ -12,7 +12,37 @@ import Alamofire
 import SwiftyJSON
 
 class CategoriesListService: CategoriesListServiceProtocol {
-  func getPopularMovies(pageNumber: Int, success: @escaping(_ result: Data) -> (), failure: @escaping() -> ()) {
+    
+    private let movieParser = MovieParser()
+    private var movies: [Movie] = []
+    
+    func getConfiguration(success: @escaping(_ data: Configuration) -> (), failure: @escaping() -> ()) {
+        
+        let url = MovieAppConstants.configurationURL
+        
+        APIManager.request(
+            url,
+            method: .get,
+            parameters: [MovieAppConstants.apiKey: MovieAppConstants.apiKeyValue],
+            encoding: URLEncoding.default,
+            headers: [MovieAppConstants.headerContentType: MovieAppConstants.headerContentTypeValue],
+            completion: { data in
+                // mapping data
+                do {
+                    print(data)
+                    //success(data)
+                } catch {
+                    
+                    failure()
+                }
+                
+        }) { errorMsg, errorCode in
+            failure()
+        }
+        
+    }
+    
+    func getPopularMovies(pageNumber: Int, success: @escaping(_ result: [Movie]) -> (), failure: @escaping() -> ()) {
 
         let url = MovieAppConstants.popularURL
             
@@ -23,9 +53,8 @@ class CategoriesListService: CategoriesListServiceProtocol {
             encoding: URLEncoding.default,
             headers: [MovieAppConstants.headerContentType : MovieAppConstants.headerContentType],
             completion: { data in
-                // mapping data
-                print(data)
-                success(data)
+                self.movies = self.movieParser.parse(data: data)
+                success(self.movies)
             }) { errorMsg, errorCode in
                 failure()
             }

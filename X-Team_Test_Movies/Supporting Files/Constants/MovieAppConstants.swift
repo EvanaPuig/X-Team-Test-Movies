@@ -1,9 +1,9 @@
 //
 //  Constants.swift
-//  MovieAppEvana
+//  X-Team_Test_Movies
 //
-//  Created by Evana Margain on 3/5/19.
-//  Copyright © 2019 Evisoft. All rights reserved.
+//  Created by Evana Margain Puig on 01/11/19.
+//  Copyright © 2019 Evana_Margain. All rights reserved.
 //
 
 import Foundation
